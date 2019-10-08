@@ -2,7 +2,8 @@ var dir_1b0e926a0431d9f734411ceeac6bd06a =
 [
     [ "MeshBufferManager.cpp", "_mesh_buffer_manager_8cpp.html", "_mesh_buffer_manager_8cpp" ],
     [ "MeshBufferManager.h", "_mesh_buffer_manager_8h.html", [
-      [ "JEMeshBufferManager", "class_joe_engine_1_1_j_e_mesh_buffer_manager.html", "class_joe_engine_1_1_j_e_mesh_buffer_manager" ]
+      [ "JEMeshBufferManager", "class_joe_engine_1_1_j_e_mesh_buffer_manager.html", "class_joe_engine_1_1_j_e_mesh_buffer_manager" ],
+      [ "hash< JoeEngine::JEMeshVertex >", "structstd_1_1hash_3_01_joe_engine_1_1_j_e_mesh_vertex_01_4.html", "structstd_1_1hash_3_01_joe_engine_1_1_j_e_mesh_vertex_01_4" ]
     ] ],
     [ "Texture.cpp", "_texture_8cpp.html", "_texture_8cpp" ],
     [ "Texture.h", "_texture_8h.html", [
