@@ -95,25 +95,33 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_material_componen
 </div><!--header-->
 <div class="contents">
 
+<p>The Material Component class.  
+ <a href="class_joe_engine_1_1_material_component.html#details">More...</a></p>
+
 <p><code>#include &lt;MaterialComponent.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aec20969d1b35709ceef12973c58d444f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#aec20969d1b35709ceef12973c58d444f">MaterialComponent</a> ()</td></tr>
+<tr class="memdesc:aec20969d1b35709ceef12973c58d444f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_joe_engine_1_1_material_component.html#aec20969d1b35709ceef12973c58d444f">More...</a><br /></td></tr>
 <tr class="separator:aec20969d1b35709ceef12973c58d444f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5214119003c17eacfed8c7829788b1fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#a5214119003c17eacfed8c7829788b1fa">MaterialComponent</a> (uint16_t id, <a class="el" href="namespace_joe_engine.html#a3a842c451179bd2c6b4615a7adcb5b4f">JE_SHADER_TYPE</a> t)</td></tr>
-<tr class="separator:a5214119003c17eacfed8c7829788b1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26759d9c01c266d952f88f9cc389fed0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#a26759d9c01c266d952f88f9cc389fed0">MaterialComponent</a> (uint16_t <a class="el" href="class_joe_engine_1_1_material_component.html#ab5df571577b137fa209eee492f2f5df5">shaderHandle</a>)</td></tr>
+<tr class="memdesc:a26759d9c01c266d952f88f9cc389fed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_material_component.html#a26759d9c01c266d952f88f9cc389fed0">More...</a><br /></td></tr>
+<tr class="separator:a26759d9c01c266d952f88f9cc389fed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab82902b4f073631b17cdcb5ce4d04fa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#ab82902b4f073631b17cdcb5ce4d04fa1">~MaterialComponent</a> ()</td></tr>
+<tr class="memdesc:ab82902b4f073631b17cdcb5ce4d04fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="class_joe_engine_1_1_material_component.html#ab82902b4f073631b17cdcb5ce4d04fa1">More...</a><br /></td></tr>
 <tr class="separator:ab82902b4f073631b17cdcb5ce4d04fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:afb60d6a542d8bba1849c5b43fa23bf07"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#afb60d6a542d8bba1849c5b43fa23bf07">shaderID</a></td></tr>
-<tr class="separator:afb60d6a542d8bba1849c5b43fa23bf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a242d685e9e13c68262cbf160867555a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_joe_engine.html#a3a842c451179bd2c6b4615a7adcb5b4f">JE_SHADER_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#a242d685e9e13c68262cbf160867555a4">shaderType</a></td></tr>
-<tr class="separator:a242d685e9e13c68262cbf160867555a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5df571577b137fa209eee492f2f5df5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_material_component.html#ab5df571577b137fa209eee492f2f5df5">shaderHandle</a></td></tr>
+<tr class="memdesc:ab5df571577b137fa209eee492f2f5df5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shader ID.  <a href="class_joe_engine_1_1_material_component.html#ab5df571577b137fa209eee492f2f5df5">More...</a><br /></td></tr>
+<tr class="separator:ab5df571577b137fa209eee492f2f5df5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The Material Component class. </p>
+<p>Contains the necessary material info to be attached to a particular entity. The material system is in progress and this class may change in the near future. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec20969d1b35709ceef12973c58d444f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec20969d1b35709ceef12973c58d444f">&#9670;&nbsp;</a></span>MaterialComponent() <span class="overload">[1/2]</span></h2>
 
@@ -137,10 +145,13 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Default constructor. </p>
+<p>Constructs component with invalid shader handle. </p>
+
 </div>
 </div>
-<a id="a5214119003c17eacfed8c7829788b1fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5214119003c17eacfed8c7829788b1fa">&#9670;&nbsp;</a></span>MaterialComponent() <span class="overload">[2/2]</span></h2>
+<a id="a26759d9c01c266d952f88f9cc389fed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26759d9c01c266d952f88f9cc389fed0">&#9670;&nbsp;</a></span>MaterialComponent() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,18 +163,8 @@ Public Attributes</h2></td></tr>
           <td class="memname">JoeEngine::MaterialComponent::MaterialComponent </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>shaderHandle</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a3a842c451179bd2c6b4615a7adcb5b4f">JE_SHADER_TYPE</a>&#160;</td>
-          <td class="paramname"><em>t</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -172,6 +173,9 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>Constructs component with specified shader handle. </p>
 
 </div>
 </div>
@@ -198,34 +202,25 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Destructor. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afb60d6a542d8bba1849c5b43fa23bf07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb60d6a542d8bba1849c5b43fa23bf07">&#9670;&nbsp;</a></span>shaderID</h2>
+<a id="ab5df571577b137fa209eee492f2f5df5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5df571577b137fa209eee492f2f5df5">&#9670;&nbsp;</a></span>shaderHandle</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int JoeEngine::MaterialComponent::shaderID</td>
+          <td class="memname">int JoeEngine::MaterialComponent::shaderHandle</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a242d685e9e13c68262cbf160867555a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a242d685e9e13c68262cbf160867555a4">&#9670;&nbsp;</a></span>shaderType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_joe_engine.html#a3a842c451179bd2c6b4615a7adcb5b4f">JE_SHADER_TYPE</a> JoeEngine::MaterialComponent::shaderType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Shader ID. </p>
+<p>Handle to the intended shader to use with this material. </p>
 
 </div>
 </div>

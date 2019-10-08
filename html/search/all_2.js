@@ -31,6 +31,5 @@ var searchData=
   ['createtextureimage_40',['CreateTextureImage',['../class_joe_engine_1_1_j_e_texture.html#aa3c1c29ea80c3dfba623cf9c22e72eb8',1,'JoeEngine::JETexture']]],
   ['createtextureimageview_41',['CreateTextureImageView',['../class_joe_engine_1_1_j_e_texture.html#ae96d82f2e945d40f1be6644457ef4eb8',1,'JoeEngine::JETexture']]],
   ['createtexturesampler_42',['CreateTextureSampler',['../class_joe_engine_1_1_j_e_texture.html#a2dd2775b699c26d726ede3aa2ce2b5d3',1,'JoeEngine::JETexture']]],
-  ['createvertexbuffer_43',['CreateVertexBuffer',['../class_joe_engine_1_1_j_e_mesh_buffer_manager.html#acffb84ad656bda99972febfce63d3059',1,'JoeEngine::JEMeshBufferManager']]],
-  ['custom_44',['CUSTOM',['../namespace_joe_engine.html#a3a842c451179bd2c6b4615a7adcb5b4fa2f47c6362d2cb60b2f30896242e2f831',1,'JoeEngine']]]
+  ['createvertexbuffer_43',['CreateVertexBuffer',['../class_joe_engine_1_1_j_e_mesh_buffer_manager.html#acffb84ad656bda99972febfce63d3059',1,'JoeEngine::JEMeshBufferManager']]]
 ];
