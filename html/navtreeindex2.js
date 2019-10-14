@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"struct_joe_engine_1_1_j_e_mesh_vertex.html#a627120893099ab68e4fc1dc2d138432c":[1,0,0,18,0],
 "struct_joe_engine_1_1_j_e_mesh_vertex.html#a7d1296e15cecf43922c13a8aebc9a197":[1,0,0,18,5],
 "struct_joe_engine_1_1_j_e_mesh_vertex.html#ae080d18fd72c436a40edaf49ddc187f5":[1,0,0,18,4],
 "struct_joe_engine_1_1_j_e_mesh_vertex.html#aedd22bb85cf96483d8dd07660d80dc6b":[1,0,0,18,2],
@@ -62,7 +61,5 @@ var NAVTREEINDEX2 =
 "struct_joe_engine_1_1je__thread__job__t.html":[1,0,0,9],
 "struct_joe_engine_1_1je__thread__job__t.html#a63252e2be6d9aac81b2baeab380d7f8e":[1,0,0,9,2],
 "struct_joe_engine_1_1je__thread__job__t.html#afbe8c16602f9431ca9768fd06db70a2b":[1,0,0,9,1],
-"struct_joe_engine_1_1je__thread__job__t.html#afd739a5ce6e526aa5da75083612df596":[1,0,0,9,0],
-"structstd_1_1hash_3_01_joe_engine_1_1_j_e_mesh_vertex_01_4.html":[1,0,1,0],
-"structstd_1_1hash_3_01_joe_engine_1_1_j_e_mesh_vertex_01_4.html#a94fa097f0e8f35c3d014c686cfe9c8ec":[1,0,1,0,0]
+"struct_joe_engine_1_1je__thread__job__t.html#afd739a5ce6e526aa5da75083612df596":[1,0,0,9,0]
 };

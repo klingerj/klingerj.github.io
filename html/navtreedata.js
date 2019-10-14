@@ -55,9 +55,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-".html",
-"class_joe_engine_1_1_j_e_scene_manager.html#afff17735f4381b63a73601e9cf819da5",
-"struct_joe_engine_1_1_j_e_mesh_vertex.html#a627120893099ab68e4fc1dc2d138432c"
+"_camera_8h.html",
+"class_joe_engine_1_1_j_e_texture.html",
+"struct_joe_engine_1_1_j_e_mesh_vertex.html#a7d1296e15cecf43922c13a8aebc9a197"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

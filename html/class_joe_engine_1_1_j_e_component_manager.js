@@ -1,8 +1,8 @@
 var class_joe_engine_1_1_j_e_component_manager =
 [
-    [ "JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html#a801c5cd1661740778cc6533a0bb91570", null ],
-    [ "~JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html#a8faa04501bed89f0ac0271f708af6f00", null ],
-    [ "AddNewComponent", "class_joe_engine_1_1_j_e_component_manager.html#ad87528d24b126102fb35ac9c6136772d", null ],
-    [ "RemoveComponent", "class_joe_engine_1_1_j_e_component_manager.html#a4ccbb361c79df8f115e37b79558a8846", null ],
+    [ "JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html#ab360bf9a859b37a5fd1c0eca5789c6ee", null ],
+    [ "~JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html#a521f81520c7b5b8e8bc03f47ed34dd27", null ],
+    [ "AddNewComponent", "class_joe_engine_1_1_j_e_component_manager.html#a2277980300692e4702fea3cf23617adb", null ],
+    [ "RemoveComponent", "class_joe_engine_1_1_j_e_component_manager.html#ac45e75fb01dbf0eb69236203394add68", null ],
     [ "Update", "class_joe_engine_1_1_j_e_component_manager.html#af14cedd8cfa9b83c7e0f0bb75506e5c2", null ]
 ];

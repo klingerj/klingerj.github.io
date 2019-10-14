@@ -1,7 +1,6 @@
 var hierarchy =
 [
     [ "JoeEngine::Entity", "class_joe_engine_1_1_entity.html", null ],
-    [ "std::hash< JoeEngine::JEMeshVertex >", "structstd_1_1hash_3_01_joe_engine_1_1_j_e_mesh_vertex_01_4.html", null ],
     [ "JoeEngine::je_framebuffer_attachment_t", "struct_joe_engine_1_1je__framebuffer__attachment__t.html", null ],
     [ "JoeEngine::je_mesh_sstri_t", "struct_joe_engine_1_1je__mesh__sstri__t.html", null ],
     [ "JoeEngine::je_offscreen_deferred_pass_t", "struct_joe_engine_1_1je__offscreen__deferred__pass__t.html", null ],
