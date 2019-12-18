@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a745bae4b02771e8d80cccdedbd295bb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_material_component_manager.html#a745bae4b02771e8d80cccdedbd295bb1">SetComponent</a> (uint32_t entityID, <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> newComp)</td></tr>
 <tr class="memdesc:a745bae4b02771e8d80cccdedbd295bb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set material component.  <a href="class_joe_engine_1_1_j_e_material_component_manager.html#a745bae4b02771e8d80cccdedbd295bb1">More...</a><br /></td></tr>
 <tr class="separator:a745bae4b02771e8d80cccdedbd295bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991de8f9792fc135db5b659d9f0efcb7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_material_component_manager.html#a991de8f9792fc135db5b659d9f0efcb7">GetComponentList</a> () const</td></tr>
+<tr class="memdesc:a991de8f9792fc135db5b659d9f0efcb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get list of material components.  <a href="class_joe_engine_1_1_j_e_material_component_manager.html#a991de8f9792fc135db5b659d9f0efcb7">More...</a><br /></td></tr>
+<tr class="separator:a991de8f9792fc135db5b659d9f0efcb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_joe_engine_1_1_j_e_component_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_joe_engine_1_1_j_e_component_manager')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_joe_engine_1_1_j_e_component_manager.html">JoeEngine::JEComponentManager</a></td></tr>
 <tr class="memitem:ab360bf9a859b37a5fd1c0eca5789c6ee inherit pub_methods_class_joe_engine_1_1_j_e_component_manager"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_component_manager.html#ab360bf9a859b37a5fd1c0eca5789c6ee">JEComponentManager</a> ()=default</td></tr>
 <tr class="memdesc:ab360bf9a859b37a5fd1c0eca5789c6ee inherit pub_methods_class_joe_engine_1_1_j_e_component_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_joe_engine_1_1_j_e_component_manager.html#ab360bf9a859b37a5fd1c0eca5789c6ee">More...</a><br /></td></tr>
@@ -262,6 +265,26 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a991de8f9792fc135db5b659d9f0efcb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991de8f9792fc135db5b659d9f0efcb7">&#9670;&nbsp;</a></span>GetComponentList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp; JoeEngine::JEMaterialComponentManager::GetComponentList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get list of material components. </p>
+<p>Gets the member list of mesh components. </p><dl class="section return"><dt>Returns</dt><dd>the list of mesh components. </dd></dl>
+
+</div>
+</div>
 <a id="a42a312979f094781419d6a67bdb580b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42a312979f094781419d6a67bdb580b0">&#9670;&nbsp;</a></span>RemoveComponent()</h2>
 
@@ -287,7 +310,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Remove material component. </p>
-<p>Removes the material component from the packed array of material components at the specified entity index. Overrides purely virtual function declared in <a class="el" href="class_joe_engine_1_1_j_e_component_manager.html" title="The Component Manager class.">JEComponentManager</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Removes the material component from the list of material components at the specified entity index. Overrides purely virtual function declared in <a class="el" href="class_joe_engine_1_1_j_e_component_manager.html" title="The Component Manager class.">JEComponentManager</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">entityID</td><td>the id of the entity to remove the material component from </td></tr>
   </table>

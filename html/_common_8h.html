@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('_common_8h.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -123,11 +124,26 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a829eca3e0326f52d7a828e8c36e37d2c"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JoeEngine::JE_RENDERER_SETTINGS_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">JoeEngine::RendererSettings</a></td></tr>
+<tr class="separator:a829eca3e0326f52d7a828e8c36e37d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a4d154207567e45c556c9a11bd101de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a5a4d154207567e45c556c9a11bd101de">JoeEngine::JECallbackFunction</a> = std::function&lt; void()&gt;</td></tr>
 <tr class="separator:a5a4d154207567e45c556c9a11bd101de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a6bbfd1457db9dcdc5029d1bbd7ef7058"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JoeEngine::JE_RENDERER_SETTINGS_TYPE</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a7a1920d61156abc05a60135aefe8bc67">JoeEngine::JE_RENDERER_SETTINGS_TYPE::Default</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058afcb94b30d99c8d791d85b551e4e3fc0f">JoeEngine::JE_RENDERER_SETTINGS_TYPE::EnableDeferred</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a922c27691cb75289f24bffd73c3db0ed">JoeEngine::JE_RENDERER_SETTINGS_TYPE::EnableOIT</a> = 0x2, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a0f17785b066a856dc70d940798d20ea7">JoeEngine::JE_RENDERER_SETTINGS_TYPE::AllSettings</a> = 0xFFFFFFFF
+ }</td></tr>
+<tr class="separator:a6bbfd1457db9dcdc5029d1bbd7ef7058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6b75c517e74f689d557d7712eaa2d59f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a6b75c517e74f689d557d7712eaa2d59f">JoeEngine::operator&amp;</a> (RendererSettings a, RendererSettings b)</td></tr>
+<tr class="separator:a6b75c517e74f689d557d7712eaa2d59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe681eb388eb9763b7f0e48f2bd2b2c9"><td class="memItemLeft" align="right" valign="top">RendererSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#afe681eb388eb9763b7f0e48f2bd2b2c9">JoeEngine::operator|</a> (RendererSettings a, RendererSettings b)</td></tr>
+<tr class="separator:afe681eb388eb9763b7f0e48f2bd2b2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc729b8cc9bd6ab8dda55e5c00c2135d"><td class="memItemLeft" align="right" valign="top">VkCommandBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#afc729b8cc9bd6ab8dda55e5c00c2135d">JoeEngine::BeginSingleTimeCommands</a> (VkDevice device, VkCommandPool commandPool)</td></tr>
 <tr class="separator:afc729b8cc9bd6ab8dda55e5c00c2135d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff61a15bce95a92d200b42a2f66c09d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aff61a15bce95a92d200b42a2f66c09d5">JoeEngine::EndSingleTimeCommands</a> (VkDevice device, VkCommandBuffer commandBuffer, const JEVulkanQueue &amp;graphicsQueue, VkCommandPool commandPool)</td></tr>
@@ -157,8 +173,12 @@ Variables</h2></td></tr>
 <tr class="separator:ac5ba1733845e413610385efdc8a598b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12277a4ae8b7c2f8552762b48bdf3b5a"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a12277a4ae8b7c2f8552762b48bdf3b5a">JoeEngine::JE_DEFAULT_SCREEN_HEIGHT</a> = 720</td></tr>
 <tr class="separator:a12277a4ae8b7c2f8552762b48bdf3b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24bddda857bf95325c72327681a76585"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a24bddda857bf95325c72327681a76585">JoeEngine::JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</a> = 2</td></tr>
-<tr class="separator:a24bddda857bf95325c72327681a76585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e7ab6e23d31a5e54a6fcdf07078830"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ad4e7ab6e23d31a5e54a6fcdf07078830">JoeEngine::JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</a> = 2</td></tr>
+<tr class="separator:ad4e7ab6e23d31a5e54a6fcdf07078830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3330489975600bd2ee041072b28cc9"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a2d3330489975600bd2ee041072b28cc9">JoeEngine::JE_NUM_ENTITIES</a> = 10000</td></tr>
+<tr class="separator:a2d3330489975600bd2ee041072b28cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcc87c9e776e38ee8b319c4acd262af"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#addcc87c9e776e38ee8b319c4acd262af">JoeEngine::JE_NUM_OIT_FRAGSPP</a> = 16</td></tr>
+<tr class="separator:addcc87c9e776e38ee8b319c4acd262af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf95541e650ac488a6040aa24dceff5f"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aaf95541e650ac488a6040aa24dceff5f">JoeEngine::JE_DEFAULT_SHADOW_MAP_WIDTH</a> = 4000</td></tr>
 <tr class="separator:aaf95541e650ac488a6040aa24dceff5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab84bc283b8c1a02425f635c7237e4e63"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ab84bc283b8c1a02425f635c7237e4e63">JoeEngine::JE_DEFAULT_SHADOW_MAP_HEIGHT</a> = 4000</td></tr>

@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('namespace_joe_engine.html','');});
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -100,6 +101,8 @@ $(document).ready(function(){initNavTree('namespace_joe_engine.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_joe_engine_1_1_mem_alloc_utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine_1_1_mem_alloc_utils.html">MemAllocUtils</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespace_joe_engine_1_1_r_n_g"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine_1_1_r_n_g.html">RNG</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -112,7 +115,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1je__offscreen__deferred__pass__t.html">je_offscreen_deferred_pass_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1je__offscreen__forward__pass__t.html">je_offscreen_forward_pass_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1je__offscreen__shadow__pass__t.html">je_offscreen_shadow_pass_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1je__particle__system__settings__t.html">je_particle_system_settings_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1je__post__processing__pass__t.html">je_post_processing_pass_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,9 +136,17 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_component_manager.html">JEComponentManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Component Manager class.  <a href="class_joe_engine_1_1_j_e_component_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_deferred_geometry_shader.html">JEDeferredGeometryShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_deferred_shader.html">JEDeferredShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_engine_instance.html">JEEngineInstance</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_entity_manager.html">JEEntityManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_shader.html">JEForwardShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html">JEForwardTranslucentShader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_i_o_handler.html">JEIOHandler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,11 +158,29 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_mesh_component_manager.html">JEMeshComponentManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Mesh Component Manager class.  <a href="class_joe_engine_1_1_j_e_mesh_component_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1_j_e_mesh_point_vertex.html">JEMeshPointVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1_j_e_mesh_vertex.html">JEMeshVertex</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_o_i_t_sort_shader.html">JEOITSortShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_particle_system.html">JEParticleSystem</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html">JEPhysicsManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_points_shader.html">JEPointsShader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_scene_manager.html">JESceneManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html">JEShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html">JEShaderManager</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html">JEShadowShader</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_texture.html">JETexture</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_texture_library.html">JETextureLibrary</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,17 +189,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1_j_e_u_b_o___view_proj___inv.html">JEUBO_ViewProj_Inv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_deferred_pass_geometry_shader.html">JEVulkanDeferredPassGeometryShader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_deferred_pass_lighting_shader.html">JEVulkanDeferredPassLightingShader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_post_process_shader.html">JEVulkanPostProcessShader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_descriptor.html">JEVulkanDescriptor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_queue.html">JEVulkanQueue</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html">JEVulkanRenderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shadow_pass_shader.html">JEVulkanShadowPassShader</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html">JEVulkanShader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html">JEVulkanSwapChain</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +209,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Mesh Component class.  <a href="class_joe_engine_1_1_mesh_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1oit__atomic__ctr__t.html">oit_atomic_ctr_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1oit__hp__node__t.html">oit_hp_node_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1oit__ll__node__t.html">oit_ll_node_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1oit__np__node__t.html">oit_np_node_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_joe_engine_1_1_packed_array.html" title="The PackedArray class.">PackedArray</a> class.  <a href="class_joe_engine_1_1_packed_array.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1particle__update__data__t.html">particle_update_data_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_joe_engine_1_1_queue_family_indices.html">QueueFamilyIndices</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,23 +234,100 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a76b58d9343a30f738149544943a004b6"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JoeEngine::JE_RENDER_LAYER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a76b58d9343a30f738149544943a004b6">RenderLayer</a></td></tr>
+<tr class="memdesc:a76b58d9343a30f738149544943a004b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render layer enum.  <a href="namespace_joe_engine.html#a76b58d9343a30f738149544943a004b6">More...</a><br /></td></tr>
+<tr class="separator:a76b58d9343a30f738149544943a004b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af02709ff5e4e1b794905d1f8fe4ad761"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JoeEngine::JE_GEOM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#af02709ff5e4e1b794905d1f8fe4ad761">GeomType</a></td></tr>
+<tr class="memdesc:af02709ff5e4e1b794905d1f8fe4ad761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry type enum.  <a href="namespace_joe_engine.html#af02709ff5e4e1b794905d1f8fe4ad761">More...</a><br /></td></tr>
+<tr class="separator:af02709ff5e4e1b794905d1f8fe4ad761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ca1e8b3b761a2137924e9565c84a66"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JoeEngine::JE_MATERIAL_SETTINGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aa2ca1e8b3b761a2137924e9565c84a66">MaterialSettings</a></td></tr>
+<tr class="memdesc:aa2ca1e8b3b761a2137924e9565c84a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material Settings enum.  <a href="namespace_joe_engine.html#aa2ca1e8b3b761a2137924e9565c84a66">More...</a><br /></td></tr>
+<tr class="separator:aa2ca1e8b3b761a2137924e9565c84a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b8542fcda696be48bbc5d4df4606b59"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__particle__system__settings__t.html">JoeEngine::je_particle_system_settings_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a8b8542fcda696be48bbc5d4df4606b59">JEParticleSystemSettings</a></td></tr>
+<tr class="separator:a8b8542fcda696be48bbc5d4df4606b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf2ce0dd412be39c3028da488749a10"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1particle__update__data__t.html">JoeEngine::particle_update_data_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a3bf2ce0dd412be39c3028da488749a10">ParticleUpdateData</a></td></tr>
+<tr class="separator:a3bf2ce0dd412be39c3028da488749a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4471dfd07365ec5ff5554cfe77eb3db3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a4471dfd07365ec5ff5554cfe77eb3db3">BoundingBoxData</a> = std::array&lt; glm::vec3, 8 &gt;</td></tr>
+<tr class="separator:a4471dfd07365ec5ff5554cfe77eb3db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53ed93ee20c83366223f596a98f99a8f"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71">JoeEngine::JE_PIPELINE_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a53ed93ee20c83366223f596a98f99a8f">PipelineType</a></td></tr>
+<tr class="separator:a53ed93ee20c83366223f596a98f99a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9790c48ef65eec506a424cb052ed5758"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1oit__ll__node__t.html">JoeEngine::oit_ll_node_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a9790c48ef65eec506a424cb052ed5758">OITLinkedListNode</a></td></tr>
+<tr class="separator:a9790c48ef65eec506a424cb052ed5758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ff56540ad9294812e8a69f58034c9b3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1oit__hp__node__t.html">JoeEngine::oit_hp_node_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a6ff56540ad9294812e8a69f58034c9b3">OITHeadPointerNode</a></td></tr>
+<tr class="separator:a6ff56540ad9294812e8a69f58034c9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af384bcbae46c8dd0c229bd09dd8eb3cf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1oit__np__node__t.html">JoeEngine::oit_np_node_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#af384bcbae46c8dd0c229bd09dd8eb3cf">OITNextPointerNode</a></td></tr>
+<tr class="separator:af384bcbae46c8dd0c229bd09dd8eb3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade90add9f0985be5deb8bbe21be12516"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1oit__atomic__ctr__t.html">JoeEngine::oit_atomic_ctr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ade90add9f0985be5deb8bbe21be12516">OITAtomicCounterData</a></td></tr>
+<tr class="separator:ade90add9f0985be5deb8bbe21be12516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab5db3152a62ed8705d39c3b56acdef3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__framebuffer__attachment__t.html">JoeEngine::je_framebuffer_attachment_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aab5db3152a62ed8705d39c3b56acdef3">JEFramebufferAttachment</a></td></tr>
 <tr class="separator:aab5db3152a62ed8705d39c3b56acdef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae082bf11367287a4c916684f9179315e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__offscreen__forward__pass__t.html">JoeEngine::je_offscreen_forward_pass_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ae082bf11367287a4c916684f9179315e">JEForwardPass</a></td></tr>
+<tr class="separator:ae082bf11367287a4c916684f9179315e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa110c3b1c7319a6f8f51781cfce825fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__offscreen__shadow__pass__t.html">JoeEngine::je_offscreen_shadow_pass_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aa110c3b1c7319a6f8f51781cfce825fa">JEOffscreenShadowPass</a></td></tr>
 <tr class="separator:aa110c3b1c7319a6f8f51781cfce825fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8ad1df755f85f7b1a26217ecf748e2a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__offscreen__deferred__pass__t.html">JoeEngine::je_offscreen_deferred_pass_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ae8ad1df755f85f7b1a26217ecf748e2a">JEOffscreenDeferredPass</a></td></tr>
 <tr class="separator:ae8ad1df755f85f7b1a26217ecf748e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9a16e56ebd86b60e754060d91a9397"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__post__processing__pass__t.html">JoeEngine::je_post_processing_pass_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a8e9a16e56ebd86b60e754060d91a9397">JEPostProcessingPass</a></td></tr>
 <tr class="separator:a8e9a16e56ebd86b60e754060d91a9397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad86863d919f0407653d41cb824d392e9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__mesh__sstri__t.html">JoeEngine::je_mesh_sstri_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ad86863d919f0407653d41cb824d392e9">JEMesh_SSTriangle</a></td></tr>
-<tr class="separator:ad86863d919f0407653d41cb824d392e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cbac74b361984b7fc8b2f82469fc88"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__mesh__sstri__t.html">JoeEngine::je_mesh_sstri_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ae2cbac74b361984b7fc8b2f82469fc88">JESingleMesh</a></td></tr>
+<tr class="separator:ae2cbac74b361984b7fc8b2f82469fc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a829eca3e0326f52d7a828e8c36e37d2c"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JoeEngine::JE_RENDERER_SETTINGS_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a></td></tr>
+<tr class="separator:a829eca3e0326f52d7a828e8c36e37d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a4d154207567e45c556c9a11bd101de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a5a4d154207567e45c556c9a11bd101de">JECallbackFunction</a> = std::function&lt; void()&gt;</td></tr>
 <tr class="separator:a5a4d154207567e45c556c9a11bd101de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8d04fe8f47b096335a525df1172cfa6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="struct_joe_engine_1_1je__thread__job__t.html">JoeEngine::je_thread_job_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ac8d04fe8f47b096335a525df1172cfa6">JEThreadJob</a></td></tr>
 <tr class="separator:ac8d04fe8f47b096335a525df1172cfa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aad11b8f7745dd1892bcb9961de8303e0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JE_RENDER_LAYER</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0a5ac277e0b63de0040e892ca73f26b4bd">OPAQUE</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0acc687c2e28f2f4cdb0655463f4fa4bc3">TRANSLUCENT</a> = 0xFFFF, 
+<a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0a181bf31f83dbfd7b7bcc95e7848f6215">MAX_LAYER</a> = 0xFFFFFFFF
+ }</td></tr>
+<tr class="memdesc:aad11b8f7745dd1892bcb9961de8303e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render layer enum.  <a href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">More...</a><br /></td></tr>
+<tr class="separator:aad11b8f7745dd1892bcb9961de8303e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f4e907906f105f49819661f50dbc08"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JE_GEOM_TYPE</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08a5d46cdf3b6ed90a4b9bd08e866969789">TRIANGLES</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08aecaddbd3bcbf60384b32083cb5600476">LINES</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08ae6d9307b214c7cab7e1d326dab1fa587">POINTS</a> = 0x2
+ }</td></tr>
+<tr class="memdesc:a80f4e907906f105f49819661f50dbc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry type enum.  <a href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">More...</a><br /></td></tr>
+<tr class="separator:a80f4e907906f105f49819661f50dbc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dafe287c8ddcf0955d0248444210e9b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JE_MATERIAL_SETTINGS</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9ba1a422d33169809d7cabf3771481893e7">NO_SETTINGS</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9baeb2ec21025caa4d2480a6dd4d1f6d073">RECEIVES_SHADOWS</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9ba2357f237c75afeeb63bb3db50baa6ddb">CASTS_SHADOWS</a> = 0x2, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9bae74dc23e8215c2ac858d5b04776c3f9c">ALL_SETTINGS</a> = 0xF
+ }</td></tr>
+<tr class="memdesc:a9dafe287c8ddcf0955d0248444210e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material Settings enum.  <a href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">More...</a><br /></td></tr>
+<tr class="separator:a9dafe287c8ddcf0955d0248444210e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede05f5b4b57cff2af035ae8349cea27"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27">JE_MESH_BUFFER_TYPE</a> { <a class="el" href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27a6c56e0adaf578ad3bb7cfdeb68668aad">MESH_TRIANGLES</a>, 
+<a class="el" href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27a69fa748a8f949a673eb1c706a9f5c36d">MESH_LINES</a>, 
+<a class="el" href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27a1f90e096e765323d9a2a6b9d3ba79711">MESH_POINTS</a>
+ }</td></tr>
+<tr class="memdesc:aede05f5b4b57cff2af035ae8349cea27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh Buffer Type enum.  <a href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27">More...</a><br /></td></tr>
+<tr class="separator:aede05f5b4b57cff2af035ae8349cea27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fdac1faa69077127b3758a483efde71"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71">JE_PIPELINE_TYPE</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71a1c6c9660eecce8c33f126140aa926b77">FORWARD</a>, 
+<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71aebfda702b3f7f5c64637edb2ed4e748d">DEFERRED</a>, 
+<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71a34a9bfff43a575060efdc8e7764aa013">SHADOW</a>, 
+<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71ab7396d316fa01122b80797052755b88b">DEFERRED_GEOM</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71a110c82c678a6feb33ceead64dc0cc65f">FORWARD_POINTS</a>, 
+<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71a0a1eacf15c6247f4091f5f0d5f74be83">TRANSLUCENT_OIT</a>, 
+<a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71a87cc66381b5a2e83e5829c4ec3f5ab18">TRANSLUCENT_OIT_SORT</a>
+<br />
+ }</td></tr>
+<tr class="separator:a9fdac1faa69077127b3758a483efde71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbfd1457db9dcdc5029d1bbd7ef7058"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JE_RENDERER_SETTINGS_TYPE</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a7a1920d61156abc05a60135aefe8bc67">JE_RENDERER_SETTINGS_TYPE::Default</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058afcb94b30d99c8d791d85b551e4e3fc0f">JE_RENDERER_SETTINGS_TYPE::EnableDeferred</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a922c27691cb75289f24bffd73c3db0ed">JE_RENDERER_SETTINGS_TYPE::EnableOIT</a> = 0x2, 
+<a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058a0f17785b066a856dc70d940798d20ea7">JE_RENDERER_SETTINGS_TYPE::AllSettings</a> = 0xFFFFFFFF
+ }</td></tr>
+<tr class="separator:a6bbfd1457db9dcdc5029d1bbd7ef7058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:afe843bcc0c9e7efa27168741ef2b2585"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#afe843bcc0c9e7efa27168741ef2b2585">UpdateParticleSystems_MT</a> (void *data)</td></tr>
+<tr class="separator:afe843bcc0c9e7efa27168741ef2b2585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc2df50446d851ce246d6b162e8cd0d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_joe_engine_1_1_queue_family_indices.html">QueueFamilyIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#acc2df50446d851ce246d6b162e8cd0d0">FindQueueFamilies</a> (VkPhysicalDevice physicalDevice, VkSurfaceKHR surface)</td></tr>
 <tr class="separator:acc2df50446d851ce246d6b162e8cd0d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbd40a09fd6663179c8293f540adcdff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VkDeviceQueueCreateInfo &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#acbd40a09fd6663179c8293f540adcdff">GetQueueCreateInfos</a> (const <a class="el" href="struct_joe_engine_1_1_queue_family_indices.html">QueueFamilyIndices</a> &amp;indices)</td></tr>
@@ -241,6 +358,10 @@ Functions</h2></td></tr>
 <tr class="separator:a590fcd501fa63eed2b5a17b49ba4f09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ffd870cf66600baec01a06fcd43562a"><td class="memItemLeft" align="right" valign="top">VkFormat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a3ffd870cf66600baec01a06fcd43562a">FindDepthFormat</a> (VkPhysicalDevice physicalDevice)</td></tr>
 <tr class="separator:a3ffd870cf66600baec01a06fcd43562a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b75c517e74f689d557d7712eaa2d59f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a6b75c517e74f689d557d7712eaa2d59f">operator&amp;</a> (<a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> a, <a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> b)</td></tr>
+<tr class="separator:a6b75c517e74f689d557d7712eaa2d59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe681eb388eb9763b7f0e48f2bd2b2c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#afe681eb388eb9763b7f0e48f2bd2b2c9">operator|</a> (<a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> a, <a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> b)</td></tr>
+<tr class="separator:afe681eb388eb9763b7f0e48f2bd2b2c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ccb481c3eb068898d2e9d4cf8c353b5"><td class="memItemLeft" align="right" valign="top">VkResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a4ccb481c3eb068898d2e9d4cf8c353b5">CreateDebugReportCallbackEXT</a> (const VkInstance &amp;instance, const VkDebugReportCallbackCreateInfoEXT *pCreateInfo, const VkAllocationCallbacks *pAllocator, VkDebugReportCallbackEXT *pCallback)</td></tr>
 <tr class="separator:a4ccb481c3eb068898d2e9d4cf8c353b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a306fc3b17b33ce598ebbeb37869e2ec0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a306fc3b17b33ce598ebbeb37869e2ec0">DestroyDebugReportCallbackEXT</a> (const VkInstance &amp;instance, VkDebugReportCallbackEXT callback, const VkAllocationCallbacks *pAllocator)</td></tr>
@@ -254,8 +375,12 @@ Variables</h2></td></tr>
 <tr class="separator:ac5ba1733845e413610385efdc8a598b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12277a4ae8b7c2f8552762b48bdf3b5a"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a12277a4ae8b7c2f8552762b48bdf3b5a">JE_DEFAULT_SCREEN_HEIGHT</a> = 720</td></tr>
 <tr class="separator:a12277a4ae8b7c2f8552762b48bdf3b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24bddda857bf95325c72327681a76585"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a24bddda857bf95325c72327681a76585">JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</a> = 2</td></tr>
-<tr class="separator:a24bddda857bf95325c72327681a76585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e7ab6e23d31a5e54a6fcdf07078830"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ad4e7ab6e23d31a5e54a6fcdf07078830">JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</a> = 2</td></tr>
+<tr class="separator:ad4e7ab6e23d31a5e54a6fcdf07078830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3330489975600bd2ee041072b28cc9"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a2d3330489975600bd2ee041072b28cc9">JE_NUM_ENTITIES</a> = 10000</td></tr>
+<tr class="separator:a2d3330489975600bd2ee041072b28cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcc87c9e776e38ee8b319c4acd262af"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#addcc87c9e776e38ee8b319c4acd262af">JE_NUM_OIT_FRAGSPP</a> = 16</td></tr>
+<tr class="separator:addcc87c9e776e38ee8b319c4acd262af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf95541e650ac488a6040aa24dceff5f"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aaf95541e650ac488a6040aa24dceff5f">JE_DEFAULT_SHADOW_MAP_WIDTH</a> = 4000</td></tr>
 <tr class="separator:aaf95541e650ac488a6040aa24dceff5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab84bc283b8c1a02425f635c7237e4e63"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#ab84bc283b8c1a02425f635c7237e4e63">JE_DEFAULT_SHADOW_MAP_HEIGHT</a> = 4000</td></tr>
@@ -324,10 +449,41 @@ Variables</h2></td></tr>
 <tr class="separator:ac2afe0b6d990c375d8947cffb1e7b7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3a3abf0ebb266d2952e4e9a3d6373db"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#af3a3abf0ebb266d2952e4e9a3d6373db">JE_KEY_9</a> = GLFW_KEY_9</td></tr>
 <tr class="separator:af3a3abf0ebb266d2952e4e9a3d6373db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33b77493b260c06c9e03968111e8a4cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a33b77493b260c06c9e03968111e8a4cc">JEthreadPool</a> = <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>()</td></tr>
-<tr class="separator:a33b77493b260c06c9e03968111e8a4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05d09175bbe683c56ddd77f912ff25d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a05d09175bbe683c56ddd77f912ff25d8">JEThreadPoolInstance</a> = <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>()</td></tr>
+<tr class="separator:a05d09175bbe683c56ddd77f912ff25d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4471dfd07365ec5ff5554cfe77eb3db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4471dfd07365ec5ff5554cfe77eb3db3">&#9670;&nbsp;</a></span>BoundingBoxData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespace_joe_engine.html#a4471dfd07365ec5ff5554cfe77eb3db3">JoeEngine::BoundingBoxData</a> = typedef std::array&lt;glm::vec3, 8&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af02709ff5e4e1b794905d1f8fe4ad761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af02709ff5e4e1b794905d1f8fe4ad761">&#9670;&nbsp;</a></span>GeomType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JoeEngine::JE_GEOM_TYPE</a>  <a class="el" href="namespace_joe_engine.html#af02709ff5e4e1b794905d1f8fe4ad761">JoeEngine::GeomType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Geometry type enum. </p>
+<p>Indicates what type of geometry a material component will render. </p>
+
+</div>
+</div>
 <a id="a5a4d154207567e45c556c9a11bd101de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a4d154207567e45c556c9a11bd101de">&#9670;&nbsp;</a></span>JECallbackFunction</h2>
 
@@ -342,6 +498,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ae082bf11367287a4c916684f9179315e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae082bf11367287a4c916684f9179315e">&#9670;&nbsp;</a></span>JEForwardPass</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__offscreen__forward__pass__t.html">JoeEngine::je_offscreen_forward_pass_t</a>  <a class="el" href="namespace_joe_engine.html#ae082bf11367287a4c916684f9179315e">JoeEngine::JEForwardPass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aab5db3152a62ed8705d39c3b56acdef3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab5db3152a62ed8705d39c3b56acdef3">&#9670;&nbsp;</a></span>JEFramebufferAttachment</h2>
 
@@ -350,20 +520,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__framebuffer__attachment__t.html">JoeEngine::je_framebuffer_attachment_t</a>  <a class="el" href="namespace_joe_engine.html#aab5db3152a62ed8705d39c3b56acdef3">JoeEngine::JEFramebufferAttachment</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad86863d919f0407653d41cb824d392e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad86863d919f0407653d41cb824d392e9">&#9670;&nbsp;</a></span>JEMesh_SSTriangle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__mesh__sstri__t.html">JoeEngine::je_mesh_sstri_t</a>  <a class="el" href="namespace_joe_engine.html#ad86863d919f0407653d41cb824d392e9">JoeEngine::JEMesh_SSTriangle</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -398,6 +554,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a8b8542fcda696be48bbc5d4df4606b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b8542fcda696be48bbc5d4df4606b59">&#9670;&nbsp;</a></span>JEParticleSystemSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__particle__system__settings__t.html">JoeEngine::je_particle_system_settings_t</a>  <a class="el" href="namespace_joe_engine.html#a8b8542fcda696be48bbc5d4df4606b59">JoeEngine::JEParticleSystemSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8e9a16e56ebd86b60e754060d91a9397"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e9a16e56ebd86b60e754060d91a9397">&#9670;&nbsp;</a></span>JEPostProcessingPass</h2>
 
@@ -406,6 +576,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__post__processing__pass__t.html">JoeEngine::je_post_processing_pass_t</a>  <a class="el" href="namespace_joe_engine.html#a8e9a16e56ebd86b60e754060d91a9397">JoeEngine::JEPostProcessingPass</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2cbac74b361984b7fc8b2f82469fc88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2cbac74b361984b7fc8b2f82469fc88">&#9670;&nbsp;</a></span>JESingleMesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1je__mesh__sstri__t.html">JoeEngine::je_mesh_sstri_t</a>  <a class="el" href="namespace_joe_engine.html#ae2cbac74b361984b7fc8b2f82469fc88">JoeEngine::JESingleMesh</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -423,6 +607,279 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2ca1e8b3b761a2137924e9565c84a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2ca1e8b3b761a2137924e9565c84a66">&#9670;&nbsp;</a></span>MaterialSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JoeEngine::JE_MATERIAL_SETTINGS</a>  <a class="el" href="namespace_joe_engine.html#aa2ca1e8b3b761a2137924e9565c84a66">JoeEngine::MaterialSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Material Settings enum. </p>
+<p>Indicates what material settings this material component has active/inactive. </p>
+
+</div>
+</div>
+<a id="ade90add9f0985be5deb8bbe21be12516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade90add9f0985be5deb8bbe21be12516">&#9670;&nbsp;</a></span>OITAtomicCounterData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1oit__atomic__ctr__t.html">JoeEngine::oit_atomic_ctr_t</a>  <a class="el" href="namespace_joe_engine.html#ade90add9f0985be5deb8bbe21be12516">JoeEngine::OITAtomicCounterData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ff56540ad9294812e8a69f58034c9b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ff56540ad9294812e8a69f58034c9b3">&#9670;&nbsp;</a></span>OITHeadPointerNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1oit__hp__node__t.html">JoeEngine::oit_hp_node_t</a>  <a class="el" href="namespace_joe_engine.html#a6ff56540ad9294812e8a69f58034c9b3">JoeEngine::OITHeadPointerNode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9790c48ef65eec506a424cb052ed5758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9790c48ef65eec506a424cb052ed5758">&#9670;&nbsp;</a></span>OITLinkedListNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1oit__ll__node__t.html">JoeEngine::oit_ll_node_t</a>  <a class="el" href="namespace_joe_engine.html#a9790c48ef65eec506a424cb052ed5758">JoeEngine::OITLinkedListNode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af384bcbae46c8dd0c229bd09dd8eb3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af384bcbae46c8dd0c229bd09dd8eb3cf">&#9670;&nbsp;</a></span>OITNextPointerNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1oit__np__node__t.html">JoeEngine::oit_np_node_t</a>  <a class="el" href="namespace_joe_engine.html#af384bcbae46c8dd0c229bd09dd8eb3cf">JoeEngine::OITNextPointerNode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bf2ce0dd412be39c3028da488749a10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bf2ce0dd412be39c3028da488749a10">&#9670;&nbsp;</a></span>ParticleUpdateData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="struct_joe_engine_1_1particle__update__data__t.html">JoeEngine::particle_update_data_t</a>  <a class="el" href="namespace_joe_engine.html#a3bf2ce0dd412be39c3028da488749a10">JoeEngine::ParticleUpdateData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53ed93ee20c83366223f596a98f99a8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53ed93ee20c83366223f596a98f99a8f">&#9670;&nbsp;</a></span>PipelineType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71">JoeEngine::JE_PIPELINE_TYPE</a>  <a class="el" href="namespace_joe_engine.html#a53ed93ee20c83366223f596a98f99a8f">JoeEngine::PipelineType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a829eca3e0326f52d7a828e8c36e37d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a829eca3e0326f52d7a828e8c36e37d2c">&#9670;&nbsp;</a></span>RendererSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JoeEngine::JE_RENDERER_SETTINGS_TYPE</a>  <a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">JoeEngine::RendererSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76b58d9343a30f738149544943a004b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b58d9343a30f738149544943a004b6">&#9670;&nbsp;</a></span>RenderLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JoeEngine::JE_RENDER_LAYER</a>  <a class="el" href="namespace_joe_engine.html#a76b58d9343a30f738149544943a004b6">JoeEngine::RenderLayer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Render layer enum. </p>
+<p>Indicates what render layer a material component should be rendered to. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a80f4e907906f105f49819661f50dbc08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80f4e907906f105f49819661f50dbc08">&#9670;&nbsp;</a></span>JE_GEOM_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JoeEngine::JE_GEOM_TYPE</a> : uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Geometry type enum. </p>
+<p>Indicates what type of geometry a material component will render. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a80f4e907906f105f49819661f50dbc08a5d46cdf3b6ed90a4b9bd08e866969789"></a>TRIANGLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a80f4e907906f105f49819661f50dbc08aecaddbd3bcbf60384b32083cb5600476"></a>LINES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a80f4e907906f105f49819661f50dbc08ae6d9307b214c7cab7e1d326dab1fa587"></a>POINTS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a9dafe287c8ddcf0955d0248444210e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dafe287c8ddcf0955d0248444210e9b">&#9670;&nbsp;</a></span>JE_MATERIAL_SETTINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JoeEngine::JE_MATERIAL_SETTINGS</a> : uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Material Settings enum. </p>
+<p>Indicates what material settings this material component has active/inactive. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9dafe287c8ddcf0955d0248444210e9ba1a422d33169809d7cabf3771481893e7"></a>NO_SETTINGS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9dafe287c8ddcf0955d0248444210e9baeb2ec21025caa4d2480a6dd4d1f6d073"></a>RECEIVES_SHADOWS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9dafe287c8ddcf0955d0248444210e9ba2357f237c75afeeb63bb3db50baa6ddb"></a>CASTS_SHADOWS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9dafe287c8ddcf0955d0248444210e9bae74dc23e8215c2ac858d5b04776c3f9c"></a>ALL_SETTINGS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aede05f5b4b57cff2af035ae8349cea27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede05f5b4b57cff2af035ae8349cea27">&#9670;&nbsp;</a></span>JE_MESH_BUFFER_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#aede05f5b4b57cff2af035ae8349cea27">JoeEngine::JE_MESH_BUFFER_TYPE</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mesh Buffer Type enum. </p>
+<p>Indicates what kind of buffer a mesh component refers to. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aede05f5b4b57cff2af035ae8349cea27a6c56e0adaf578ad3bb7cfdeb68668aad"></a>MESH_TRIANGLES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aede05f5b4b57cff2af035ae8349cea27a69fa748a8f949a673eb1c706a9f5c36d"></a>MESH_LINES&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aede05f5b4b57cff2af035ae8349cea27a1f90e096e765323d9a2a6b9d3ba79711"></a>MESH_POINTS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a9fdac1faa69077127b3758a483efde71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fdac1faa69077127b3758a483efde71">&#9670;&nbsp;</a></span>JE_PIPELINE_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#a9fdac1faa69077127b3758a483efde71">JoeEngine::JE_PIPELINE_TYPE</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71a1c6c9660eecce8c33f126140aa926b77"></a>FORWARD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71aebfda702b3f7f5c64637edb2ed4e748d"></a>DEFERRED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71a34a9bfff43a575060efdc8e7764aa013"></a>SHADOW&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71ab7396d316fa01122b80797052755b88b"></a>DEFERRED_GEOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71a110c82c678a6feb33ceead64dc0cc65f"></a>FORWARD_POINTS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71a0a1eacf15c6247f4091f5f0d5f74be83"></a>TRANSLUCENT_OIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9fdac1faa69077127b3758a483efde71a87cc66381b5a2e83e5829c4ec3f5ab18"></a>TRANSLUCENT_OIT_SORT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aad11b8f7745dd1892bcb9961de8303e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad11b8f7745dd1892bcb9961de8303e0">&#9670;&nbsp;</a></span>JE_RENDER_LAYER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JoeEngine::JE_RENDER_LAYER</a> : uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Render layer enum. </p>
+<p>Indicates what render layer a material component should be rendered to. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aad11b8f7745dd1892bcb9961de8303e0a5ac277e0b63de0040e892ca73f26b4bd"></a>OPAQUE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad11b8f7745dd1892bcb9961de8303e0acc687c2e28f2f4cdb0655463f4fa4bc3"></a>TRANSLUCENT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aad11b8f7745dd1892bcb9961de8303e0a181bf31f83dbfd7b7bcc95e7848f6215"></a>MAX_LAYER&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a6bbfd1457db9dcdc5029d1bbd7ef7058"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bbfd1457db9dcdc5029d1bbd7ef7058">&#9670;&nbsp;</a></span>JE_RENDERER_SETTINGS_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_joe_engine.html#a6bbfd1457db9dcdc5029d1bbd7ef7058">JoeEngine::JE_RENDERER_SETTINGS_TYPE</a> : uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6bbfd1457db9dcdc5029d1bbd7ef7058a7a1920d61156abc05a60135aefe8bc67"></a>Default&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6bbfd1457db9dcdc5029d1bbd7ef7058afcb94b30d99c8d791d85b551e4e3fc0f"></a>EnableDeferred&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6bbfd1457db9dcdc5029d1bbd7ef7058a922c27691cb75289f24bffd73c3db0ed"></a>EnableOIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6bbfd1457db9dcdc5029d1bbd7ef7058a0f17785b066a856dc70d940798d20ea7"></a>AllSettings&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -979,6 +1436,78 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6b75c517e74f689d557d7712eaa2d59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b75c517e74f689d557d7712eaa2d59f">&#9670;&nbsp;</a></span>operator&amp;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool JoeEngine::operator&amp; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe681eb388eb9763b7f0e48f2bd2b2c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe681eb388eb9763b7f0e48f2bd2b2c9">&#9670;&nbsp;</a></span>operator|()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> JoeEngine::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac8c951069d4e3d4051bf02f7ba0e2572"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8c951069d4e3d4051bf02f7ba0e2572">&#9670;&nbsp;</a></span>ReadFile()</h2>
 
@@ -1055,9 +1584,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="afe843bcc0c9e7efa27168741ef2b2585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe843bcc0c9e7efa27168741ef2b2585">&#9670;&nbsp;</a></span>UpdateParticleSystems_MT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoeEngine::UpdateParticleSystems_MT </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a24bddda857bf95325c72327681a76585"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24bddda857bf95325c72327681a76585">&#9670;&nbsp;</a></span>JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</h2>
+<a id="ad4e7ab6e23d31a5e54a6fcdf07078830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e7ab6e23d31a5e54a6fcdf07078830">&#9670;&nbsp;</a></span>JE_DEFAULT_MAX_FRAMES_IN_FLIGHT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1066,7 +1613,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr int JoeEngine::JE_DEFAULT_MAX_FRAMES_IN_FLIGHT = 2</td>
+          <td class="memname">constexpr uint32_t JoeEngine::JE_DEFAULT_MAX_FRAMES_IN_FLIGHT = 2</td>
         </tr>
       </table>
   </td>
@@ -1518,6 +2065,50 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2d3330489975600bd2ee041072b28cc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d3330489975600bd2ee041072b28cc9">&#9670;&nbsp;</a></span>JE_NUM_ENTITIES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int JoeEngine::JE_NUM_ENTITIES = 10000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addcc87c9e776e38ee8b319c4acd262af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addcc87c9e776e38ee8b319c4acd262af">&#9670;&nbsp;</a></span>JE_NUM_OIT_FRAGSPP</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t JoeEngine::JE_NUM_OIT_FRAGSPP = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1b5e361cbcfa9fbc61f4ecbb7495b5a3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b5e361cbcfa9fbc61f4ecbb7495b5a3">&#9670;&nbsp;</a></span>JE_PROJECT_PATH</h2>
 
@@ -1676,14 +2267,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a33b77493b260c06c9e03968111e8a4cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33b77493b260c06c9e03968111e8a4cc">&#9670;&nbsp;</a></span>JEthreadPool</h2>
+<a id="a05d09175bbe683c56ddd77f912ff25d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d09175bbe683c56ddd77f912ff25d8">&#9670;&nbsp;</a></span>JEThreadPoolInstance</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a> JoeEngine::JEthreadPool = <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>()</td>
+          <td class="memname"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a> JoeEngine::JEThreadPoolInstance = <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html">JEThreadPool</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">

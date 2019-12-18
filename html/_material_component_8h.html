@@ -88,12 +88,16 @@ $(document).ready(function(){initNavTree('_material_component_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">MaterialComponent.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -105,6 +109,40 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespace_joe_engine"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html">JoeEngine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a76b58d9343a30f738149544943a004b6"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JoeEngine::JE_RENDER_LAYER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a76b58d9343a30f738149544943a004b6">JoeEngine::RenderLayer</a></td></tr>
+<tr class="memdesc:a76b58d9343a30f738149544943a004b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render layer enum.  <a href="namespace_joe_engine.html#a76b58d9343a30f738149544943a004b6">More...</a><br /></td></tr>
+<tr class="separator:a76b58d9343a30f738149544943a004b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af02709ff5e4e1b794905d1f8fe4ad761"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JoeEngine::JE_GEOM_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#af02709ff5e4e1b794905d1f8fe4ad761">JoeEngine::GeomType</a></td></tr>
+<tr class="memdesc:af02709ff5e4e1b794905d1f8fe4ad761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry type enum.  <a href="namespace_joe_engine.html#af02709ff5e4e1b794905d1f8fe4ad761">More...</a><br /></td></tr>
+<tr class="separator:af02709ff5e4e1b794905d1f8fe4ad761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2ca1e8b3b761a2137924e9565c84a66"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JoeEngine::JE_MATERIAL_SETTINGS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aa2ca1e8b3b761a2137924e9565c84a66">JoeEngine::MaterialSettings</a></td></tr>
+<tr class="memdesc:aa2ca1e8b3b761a2137924e9565c84a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material Settings enum.  <a href="namespace_joe_engine.html#aa2ca1e8b3b761a2137924e9565c84a66">More...</a><br /></td></tr>
+<tr class="separator:aa2ca1e8b3b761a2137924e9565c84a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aad11b8f7745dd1892bcb9961de8303e0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">JoeEngine::JE_RENDER_LAYER</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0a5ac277e0b63de0040e892ca73f26b4bd">JoeEngine::OPAQUE</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0acc687c2e28f2f4cdb0655463f4fa4bc3">JoeEngine::TRANSLUCENT</a> = 0xFFFF, 
+<a class="el" href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0a181bf31f83dbfd7b7bcc95e7848f6215">JoeEngine::MAX_LAYER</a> = 0xFFFFFFFF
+ }</td></tr>
+<tr class="memdesc:aad11b8f7745dd1892bcb9961de8303e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render layer enum.  <a href="namespace_joe_engine.html#aad11b8f7745dd1892bcb9961de8303e0">More...</a><br /></td></tr>
+<tr class="separator:aad11b8f7745dd1892bcb9961de8303e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f4e907906f105f49819661f50dbc08"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">JoeEngine::JE_GEOM_TYPE</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08a5d46cdf3b6ed90a4b9bd08e866969789">JoeEngine::TRIANGLES</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08aecaddbd3bcbf60384b32083cb5600476">JoeEngine::LINES</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08ae6d9307b214c7cab7e1d326dab1fa587">JoeEngine::POINTS</a> = 0x2
+ }</td></tr>
+<tr class="memdesc:a80f4e907906f105f49819661f50dbc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Geometry type enum.  <a href="namespace_joe_engine.html#a80f4e907906f105f49819661f50dbc08">More...</a><br /></td></tr>
+<tr class="separator:a80f4e907906f105f49819661f50dbc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dafe287c8ddcf0955d0248444210e9b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">JoeEngine::JE_MATERIAL_SETTINGS</a> : uint32_t { <a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9ba1a422d33169809d7cabf3771481893e7">JoeEngine::NO_SETTINGS</a> = 0x0, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9baeb2ec21025caa4d2480a6dd4d1f6d073">JoeEngine::RECEIVES_SHADOWS</a> = 0x1, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9ba2357f237c75afeeb63bb3db50baa6ddb">JoeEngine::CASTS_SHADOWS</a> = 0x2, 
+<a class="el" href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9bae74dc23e8215c2ac858d5b04776c3f9c">JoeEngine::ALL_SETTINGS</a> = 0xF
+ }</td></tr>
+<tr class="memdesc:a9dafe287c8ddcf0955d0248444210e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Material Settings enum.  <a href="namespace_joe_engine.html#a9dafe287c8ddcf0955d0248444210e9b">More...</a><br /></td></tr>
+<tr class="separator:a9dafe287c8ddcf0955d0248444210e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -103,10 +103,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2f5c7ee57503bdf3d9854adb5670f7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d538a0d8ecb939bb597780f441a5e9e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#a2d538a0d8ecb939bb597780f441a5e9e">~JEVulkanSwapChain</a> ()</td></tr>
 <tr class="separator:a2d538a0d8ecb939bb597780f441a5e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e3fb7d8cc935c47fb74e40df22f5bc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#a6e3fb7d8cc935c47fb74e40df22f5bc9">Create</a> (VkPhysicalDevice physicalDevice, VkDevice device, const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_window.html">JEVulkanWindow</a> &amp;vulkanWindow, int width, int height)</td></tr>
-<tr class="separator:a6e3fb7d8cc935c47fb74e40df22f5bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e71e86ac678651074bcdbb9b9bd6f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#a82e71e86ac678651074bcdbb9b9bd6f9">CreateImageViews</a> (VkPhysicalDevice physicalDevice, VkDevice device, VkSurfaceKHR surface, int width, int height)</td></tr>
-<tr class="separator:a82e71e86ac678651074bcdbb9b9bd6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab654e6dc215e207fbcf555e1deff6935"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#ab654e6dc215e207fbcf555e1deff6935">Create</a> (VkPhysicalDevice physicalDevice, VkDevice device, const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_window.html">JEVulkanWindow</a> &amp;vulkanWindow, uint32_t width, uint32_t height)</td></tr>
+<tr class="separator:ab654e6dc215e207fbcf555e1deff6935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa32429f00003ca5d8685b7d5881d8c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#aaa32429f00003ca5d8685b7d5881d8c8">CreateImageViews</a> (VkPhysicalDevice physicalDevice, VkDevice device, VkSurfaceKHR surface)</td></tr>
+<tr class="separator:aaa32429f00003ca5d8685b7d5881d8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a5f3bf44a9616638f46bc3be4273db5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#a4a5f3bf44a9616638f46bc3be4273db5">Cleanup</a> (VkDevice device)</td></tr>
 <tr class="separator:a4a5f3bf44a9616638f46bc3be4273db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad13e1663f4e8c9c75b87a8dea90537b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html#ad13e1663f4e8c9c75b87a8dea90537b8">CheckDeviceExtensionSupport</a> (VkPhysicalDevice physicalDevice) const</td></tr>
@@ -285,8 +285,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6e3fb7d8cc935c47fb74e40df22f5bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e3fb7d8cc935c47fb74e40df22f5bc9">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="ab654e6dc215e207fbcf555e1deff6935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab654e6dc215e207fbcf555e1deff6935">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -312,13 +312,13 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>width</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>height</em>&#160;</td>
         </tr>
         <tr>
@@ -331,8 +331,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a82e71e86ac678651074bcdbb9b9bd6f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82e71e86ac678651074bcdbb9b9bd6f9">&#9670;&nbsp;</a></span>CreateImageViews()</h2>
+<a id="aaa32429f00003ca5d8685b7d5881d8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa32429f00003ca5d8685b7d5881d8c8">&#9670;&nbsp;</a></span>CreateImageViews()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,19 +353,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">VkSurfaceKHR&#160;</td>
-          <td class="paramname"><em>surface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramname"><em>surface</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

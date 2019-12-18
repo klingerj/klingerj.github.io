@@ -1,4 +1,4 @@
 var _thread_pool_8cpp =
 [
-    [ "JEthreadPool", "_thread_pool_8cpp.html#a33b77493b260c06c9e03968111e8a4cc", null ]
+    [ "JEThreadPoolInstance", "_thread_pool_8cpp.html#a05d09175bbe683c56ddd77f912ff25d8", null ]
 ];

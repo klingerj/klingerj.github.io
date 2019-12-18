@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_vulkan_render
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="class_joe_engine_1_1_j_e_vulkan_renderer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">JoeEngine::JEVulkanRenderer Class Reference</div>  </div>
@@ -102,22 +103,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4c8270959e1750c301a01ddd49bb1e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542680f0f125d858a81737a81a22fc0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a542680f0f125d858a81737a81a22fc0a">~JEVulkanRenderer</a> ()</td></tr>
 <tr class="separator:a542680f0f125d858a81737a81a22fc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05dae2d8c87485b2cb88f0d823eb917d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a05dae2d8c87485b2cb88f0d823eb917d">Initialize</a> (<a class="el" href="class_joe_engine_1_1_j_e_scene_manager.html">JESceneManager</a> *sceneManager, <a class="el" href="class_joe_engine_1_1_j_e_engine_instance.html">JEEngineInstance</a> *engineInstance)</td></tr>
-<tr class="separator:a05dae2d8c87485b2cb88f0d823eb917d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f2c0435f8f9162e0831255fb0e3bda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a24f2c0435f8f9162e0831255fb0e3bda">Initialize</a> (<a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a> rendererSettings, <a class="el" href="class_joe_engine_1_1_j_e_scene_manager.html">JESceneManager</a> *sceneManager, <a class="el" href="class_joe_engine_1_1_j_e_engine_instance.html">JEEngineInstance</a> *engineInstance)</td></tr>
+<tr class="separator:a24f2c0435f8f9162e0831255fb0e3bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9ef078d8b59720b63f58722ccbf9050"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#ae9ef078d8b59720b63f58722ccbf9050">RegisterCallbacks</a> (<a class="el" href="class_joe_engine_1_1_j_e_i_o_handler.html">JEIOHandler</a> *ioHandler)</td></tr>
 <tr class="separator:ae9ef078d8b59720b63f58722ccbf9050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a321e12a7d6af7f70752d6b42e3151173"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a321e12a7d6af7f70752d6b42e3151173">Cleanup</a> ()</td></tr>
 <tr class="separator:a321e12a7d6af7f70752d6b42e3151173"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45cd73a2d3316d96a54e39c1d8ae72fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a45cd73a2d3316d96a54e39c1d8ae72fc">FramebufferResized</a> ()</td></tr>
 <tr class="separator:a45cd73a2d3316d96a54e39c1d8ae72fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0526d8f819e9f09830ca74909f10110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#ac0526d8f819e9f09830ca74909f10110">SubmitFrame</a> ()</td></tr>
-<tr class="separator:ac0526d8f819e9f09830ca74909f10110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec30598bb4162fb7d527d074b52a559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#acec30598bb4162fb7d527d074b52a559">StartFrame</a> ()</td></tr>
+<tr class="separator:acec30598bb4162fb7d527d074b52a559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0683776f83174160c13a0d0626133ced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a0683776f83174160c13a0d0626133ced">SubmitFrame</a> (const std::vector&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp;materialComponents, const std::vector&lt; glm::mat4 &gt; &amp;transforms, const std::vector&lt; glm::mat4 &gt; &amp;transformsSorted)</td></tr>
+<tr class="separator:a0683776f83174160c13a0d0626133ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10764ab00c44a48b6a24c92ca3e3983d"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespace_joe_engine.html#a4471dfd07365ec5ff5554cfe77eb3db3">BoundingBoxData</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a10764ab00c44a48b6a24c92ca3e3983d">GetBoundingBoxData</a> () const</td></tr>
+<tr class="separator:a10764ab00c44a48b6a24c92ca3e3983d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9dcb00c81636e6567f91716c9a674f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#ab9dcb00c81636e6567f91716c9a674f5">CreateMesh</a> (const std::string &amp;filepath)</td></tr>
 <tr class="separator:ab9dcb00c81636e6567f91716c9a674f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dd68e1b6192f93b981f445ff95be7b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a6dd68e1b6192f93b981f445ff95be7b9">DrawShadowPass</a> (const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;meshComponents, const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_transform_component.html">TransformComponent</a> &gt; &amp;transformComponents, const <a class="el" href="class_joe_engine_1_1_j_e_camera.html">JECamera</a> &amp;camera)</td></tr>
-<tr class="separator:a6dd68e1b6192f93b981f445ff95be7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae1f855734bf6d5f0a6ef81b0d4bccb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#afae1f855734bf6d5f0a6ef81b0d4bccb">DrawMeshComponents</a> (const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;meshComponents, const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_transform_component.html">TransformComponent</a> &gt; &amp;transformComponents, const <a class="el" href="class_joe_engine_1_1_j_e_camera.html">JECamera</a> &amp;camera)</td></tr>
-<tr class="separator:afae1f855734bf6d5f0a6ef81b0d4bccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3402a70902befcfdf35a2302ee9f8f2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#af3402a70902befcfdf35a2302ee9f8f2">CreateTexture</a> (const std::string &amp;filepath)</td></tr>
+<tr class="separator:af3402a70902befcfdf35a2302ee9f8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e73dd69714f4928ec27003ccbc128e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a34e73dd69714f4928ec27003ccbc128e">CreateShader</a> (<a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;materialComponent, const std::string &amp;vertFilepath, const std::string &amp;fragFilepath)</td></tr>
+<tr class="separator:a34e73dd69714f4928ec27003ccbc128e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa6c5e2f65a7b9208551cc536ffc3fb"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a0aa6c5e2f65a7b9208551cc536ffc3fb">CreateDescriptor</a> (const <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;materialComponent)</td></tr>
+<tr class="separator:a0aa6c5e2f65a7b9208551cc536ffc3fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1dbe86605110feed7db39875a45116"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a5d1dbe86605110feed7db39875a45116">UpdateMesh</a> (const <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &amp;meshComponent, const std::vector&lt; <a class="el" href="struct_joe_engine_1_1_j_e_mesh_vertex.html">JEMeshVertex</a> &gt; &amp;vertices, const std::vector&lt; uint32_t &gt; &amp;indices)</td></tr>
+<tr class="separator:a5d1dbe86605110feed7db39875a45116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec0d74eacc8bf909706d32f79dca75a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#aec0d74eacc8bf909706d32f79dca75a5">UpdateMesh</a> (const <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &amp;meshComponent, const std::vector&lt; <a class="el" href="struct_joe_engine_1_1_j_e_mesh_point_vertex.html">JEMeshPointVertex</a> &gt; &amp;vertices, const std::vector&lt; uint32_t &gt; &amp;indices)</td></tr>
+<tr class="separator:aec0d74eacc8bf909706d32f79dca75a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb1af778aef641ff6276c11c851105b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#abb1af778aef641ff6276c11c851105b1">DrawShadowPass</a> (const std::vector&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;meshComponents, const <a class="el" href="class_joe_engine_1_1_j_e_camera.html">JECamera</a> &amp;camera)</td></tr>
+<tr class="separator:abb1af778aef641ff6276c11c851105b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc0f9310ef53cfcd91e1611ebe290c4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#afc0f9310ef53cfcd91e1611ebe290c4e">DrawMeshes</a> (const std::vector&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;meshComponents, const std::vector&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp;materialComponents, const <a class="el" href="class_joe_engine_1_1_j_e_camera.html">JECamera</a> &amp;camera, const std::vector&lt; <a class="el" href="class_joe_engine_1_1_j_e_particle_system.html">JEParticleSystem</a> &gt; &amp;particleSystems)</td></tr>
+<tr class="separator:afc0f9310ef53cfcd91e1611ebe290c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08fbf61bdffb48bdbf823986b566daf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#a08fbf61bdffb48bdbf823986b566daf5">WaitForIdleDevice</a> ()</td></tr>
 <tr class="separator:a08fbf61bdffb48bdbf823986b566daf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb8c9bf3f7c266b2efe83ca083450394"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_window.html">JEVulkanWindow</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#adb8c9bf3f7c266b2efe83ca083450394">GetWindow</a> () const</td></tr>
@@ -126,6 +141,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adbdbfe6ccb3f59070eacc8a3b4c9a9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaf5ef0d556425074bba2109b0ea042a"><td class="memItemLeft" align="right" valign="top">VkDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#aaaf5ef0d556425074bba2109b0ea042a">GetDevice</a> () const</td></tr>
 <tr class="separator:aaaf5ef0d556425074bba2109b0ea042a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:ac6e0e5ab97897471f2443027a430cad1"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html#ac6e0e5ab97897471f2443027a430cad1">JEEngineInstance</a></td></tr>
+<tr class="separator:ac6e0e5ab97897471f2443027a430cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4c8270959e1750c301a01ddd49bb1e5a"></a>
@@ -196,6 +216,24 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a0aa6c5e2f65a7b9208551cc536ffc3fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aa6c5e2f65a7b9208551cc536ffc3fb">&#9670;&nbsp;</a></span>CreateDescriptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t JoeEngine::JEVulkanRenderer::CreateDescriptor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;&#160;</td>
+          <td class="paramname"><em>materialComponent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9dcb00c81636e6567f91716c9a674f5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9dcb00c81636e6567f91716c9a674f5">&#9670;&nbsp;</a></span>CreateMesh()</h2>
 
@@ -214,29 +252,87 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="afae1f855734bf6d5f0a6ef81b0d4bccb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afae1f855734bf6d5f0a6ef81b0d4bccb">&#9670;&nbsp;</a></span>DrawMeshComponents()</h2>
+<a id="a34e73dd69714f4928ec27003ccbc128e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e73dd69714f4928ec27003ccbc128e">&#9670;&nbsp;</a></span>CreateShader()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void JoeEngine::JEVulkanRenderer::DrawMeshComponents </td>
+          <td class="memname">void JoeEngine::JEVulkanRenderer::CreateShader </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;&#160;</td>
+          <td class="paramname"><em>materialComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>vertFilepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fragFilepath</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3402a70902befcfdf35a2302ee9f8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3402a70902befcfdf35a2302ee9f8f2">&#9670;&nbsp;</a></span>CreateTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t JoeEngine::JEVulkanRenderer::CreateTexture </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc0f9310ef53cfcd91e1611ebe290c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc0f9310ef53cfcd91e1611ebe290c4e">&#9670;&nbsp;</a></span>DrawMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoeEngine::JEVulkanRenderer::DrawMeshes </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>meshComponents</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_transform_component.html">TransformComponent</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>transformComponents</em>, </td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>materialComponents</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_j_e_camera.html">JECamera</a> &amp;&#160;</td>
-          <td class="paramname"><em>camera</em>&#160;</td>
+          <td class="paramname"><em>camera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_joe_engine_1_1_j_e_particle_system.html">JEParticleSystem</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>particleSystems</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -246,12 +342,13 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Construct deferred geometry render pass</p>
+<p>Construct OIT first pass</p>
 <p>Construct deferred lighting and post processing passes</p>
 
 </div>
 </div>
-<a id="a6dd68e1b6192f93b981f445ff95be7b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dd68e1b6192f93b981f445ff95be7b9">&#9670;&nbsp;</a></span>DrawShadowPass()</h2>
+<a id="abb1af778aef641ff6276c11c851105b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1af778aef641ff6276c11c851105b1">&#9670;&nbsp;</a></span>DrawShadowPass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,14 +356,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void JoeEngine::JEVulkanRenderer::DrawShadowPass </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>meshComponents</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_packed_array.html">PackedArray</a>&lt; <a class="el" href="class_joe_engine_1_1_transform_component.html">TransformComponent</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>transformComponents</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,6 +396,23 @@ Public Member Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10764ab00c44a48b6a24c92ca3e3983d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10764ab00c44a48b6a24c92ca3e3983d">&#9670;&nbsp;</a></span>GetBoundingBoxData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="namespace_joe_engine.html#a4471dfd07365ec5ff5554cfe77eb3db3">BoundingBoxData</a> &gt; &amp; JoeEngine::JEVulkanRenderer::GetBoundingBoxData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -384,8 +492,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a05dae2d8c87485b2cb88f0d823eb917d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05dae2d8c87485b2cb88f0d823eb917d">&#9670;&nbsp;</a></span>Initialize()</h2>
+<a id="a24f2c0435f8f9162e0831255fb0e3bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f2c0435f8f9162e0831255fb0e3bda">&#9670;&nbsp;</a></span>Initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,6 +501,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void JoeEngine::JEVulkanRenderer::Initialize </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_joe_engine.html#a829eca3e0326f52d7a828e8c36e37d2c">RendererSettings</a>&#160;</td>
+          <td class="paramname"><em>rendererSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="class_joe_engine_1_1_j_e_scene_manager.html">JESceneManager</a> *&#160;</td>
           <td class="paramname"><em>sceneManager</em>, </td>
         </tr>
@@ -431,8 +545,25 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0526d8f819e9f09830ca74909f10110"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0526d8f819e9f09830ca74909f10110">&#9670;&nbsp;</a></span>SubmitFrame()</h2>
+<a id="acec30598bb4162fb7d527d074b52a559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec30598bb4162fb7d527d074b52a559">&#9670;&nbsp;</a></span>StartFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoeEngine::JEVulkanRenderer::StartFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0683776f83174160c13a0d0626133ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0683776f83174160c13a0d0626133ced">&#9670;&nbsp;</a></span>SubmitFrame()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,8 +571,93 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void JoeEngine::JEVulkanRenderer::SubmitFrame </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>materialComponents</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; glm::mat4 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>transforms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; glm::mat4 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>transformsSorted</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec0d74eacc8bf909706d32f79dca75a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec0d74eacc8bf909706d32f79dca75a5">&#9670;&nbsp;</a></span>UpdateMesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoeEngine::JEVulkanRenderer::UpdateMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_joe_engine_1_1_j_e_mesh_point_vertex.html">JEMeshPointVertex</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint32_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>indices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d1dbe86605110feed7db39875a45116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1dbe86605110feed7db39875a45116">&#9670;&nbsp;</a></span>UpdateMesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void JoeEngine::JEVulkanRenderer::UpdateMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_joe_engine_1_1_mesh_component.html">MeshComponent</a> &amp;&#160;</td>
+          <td class="paramname"><em>meshComponent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="struct_joe_engine_1_1_j_e_mesh_vertex.html">JEMeshVertex</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>vertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint32_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>indices</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -467,6 +683,29 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="ac6e0e5ab97897471f2443027a430cad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6e0e5ab97897471f2443027a430cad1">&#9670;&nbsp;</a></span>JEEngineInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="class_joe_engine_1_1_j_e_engine_instance.html">JEEngineInstance</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

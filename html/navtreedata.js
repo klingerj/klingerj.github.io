@@ -29,7 +29,9 @@ var NAVTREE =
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
-        [ "Typedefs", "namespacemembers_type.html", null ]
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -39,7 +41,8 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -56,8 +59,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_camera_8h.html",
-"class_joe_engine_1_1_j_e_texture.html",
-"struct_joe_engine_1_1_j_e_mesh_vertex.html#a7d1296e15cecf43922c13a8aebc9a197"
+"class_joe_engine_1_1_j_e_engine_instance.html#a145652088d7029927a3b00c359caeb74",
+"class_joe_engine_1_1_material_component.html#a328a4ca2e86b171e451786bdd420f399",
+"struct_joe_engine_1_1oit__ll__node__t.html#a63a142db78cfadfe57ebe0a6373ba137"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

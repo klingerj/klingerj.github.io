@@ -1,14 +1,35 @@
 var _vulkan_rendering_types_8h =
 [
+    [ "oit_ll_node_t", "struct_joe_engine_1_1oit__ll__node__t.html", "struct_joe_engine_1_1oit__ll__node__t" ],
+    [ "oit_hp_node_t", "struct_joe_engine_1_1oit__hp__node__t.html", "struct_joe_engine_1_1oit__hp__node__t" ],
+    [ "oit_np_node_t", "struct_joe_engine_1_1oit__np__node__t.html", "struct_joe_engine_1_1oit__np__node__t" ],
+    [ "oit_atomic_ctr_t", "struct_joe_engine_1_1oit__atomic__ctr__t.html", "struct_joe_engine_1_1oit__atomic__ctr__t" ],
     [ "je_framebuffer_attachment_t", "struct_joe_engine_1_1je__framebuffer__attachment__t.html", "struct_joe_engine_1_1je__framebuffer__attachment__t" ],
+    [ "je_offscreen_forward_pass_t", "struct_joe_engine_1_1je__offscreen__forward__pass__t.html", "struct_joe_engine_1_1je__offscreen__forward__pass__t" ],
     [ "je_offscreen_shadow_pass_t", "struct_joe_engine_1_1je__offscreen__shadow__pass__t.html", "struct_joe_engine_1_1je__offscreen__shadow__pass__t" ],
     [ "je_offscreen_deferred_pass_t", "struct_joe_engine_1_1je__offscreen__deferred__pass__t.html", "struct_joe_engine_1_1je__offscreen__deferred__pass__t" ],
     [ "je_post_processing_pass_t", "struct_joe_engine_1_1je__post__processing__pass__t.html", "struct_joe_engine_1_1je__post__processing__pass__t" ],
     [ "JEMeshVertex", "struct_joe_engine_1_1_j_e_mesh_vertex.html", "struct_joe_engine_1_1_j_e_mesh_vertex" ],
+    [ "JEMeshPointVertex", "struct_joe_engine_1_1_j_e_mesh_point_vertex.html", "struct_joe_engine_1_1_j_e_mesh_point_vertex" ],
     [ "je_mesh_sstri_t", "struct_joe_engine_1_1je__mesh__sstri__t.html", "struct_joe_engine_1_1je__mesh__sstri__t" ],
+    [ "JEForwardPass", "_vulkan_rendering_types_8h.html#ae082bf11367287a4c916684f9179315e", null ],
     [ "JEFramebufferAttachment", "_vulkan_rendering_types_8h.html#aab5db3152a62ed8705d39c3b56acdef3", null ],
-    [ "JEMesh_SSTriangle", "_vulkan_rendering_types_8h.html#ad86863d919f0407653d41cb824d392e9", null ],
     [ "JEOffscreenDeferredPass", "_vulkan_rendering_types_8h.html#ae8ad1df755f85f7b1a26217ecf748e2a", null ],
     [ "JEOffscreenShadowPass", "_vulkan_rendering_types_8h.html#aa110c3b1c7319a6f8f51781cfce825fa", null ],
-    [ "JEPostProcessingPass", "_vulkan_rendering_types_8h.html#a8e9a16e56ebd86b60e754060d91a9397", null ]
+    [ "JEPostProcessingPass", "_vulkan_rendering_types_8h.html#a8e9a16e56ebd86b60e754060d91a9397", null ],
+    [ "JESingleMesh", "_vulkan_rendering_types_8h.html#ae2cbac74b361984b7fc8b2f82469fc88", null ],
+    [ "OITAtomicCounterData", "_vulkan_rendering_types_8h.html#ade90add9f0985be5deb8bbe21be12516", null ],
+    [ "OITHeadPointerNode", "_vulkan_rendering_types_8h.html#a6ff56540ad9294812e8a69f58034c9b3", null ],
+    [ "OITLinkedListNode", "_vulkan_rendering_types_8h.html#a9790c48ef65eec506a424cb052ed5758", null ],
+    [ "OITNextPointerNode", "_vulkan_rendering_types_8h.html#af384bcbae46c8dd0c229bd09dd8eb3cf", null ],
+    [ "PipelineType", "_vulkan_rendering_types_8h.html#a53ed93ee20c83366223f596a98f99a8f", null ],
+    [ "JE_PIPELINE_TYPE", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71", [
+      [ "FORWARD", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71a1c6c9660eecce8c33f126140aa926b77", null ],
+      [ "DEFERRED", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71aebfda702b3f7f5c64637edb2ed4e748d", null ],
+      [ "SHADOW", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71a34a9bfff43a575060efdc8e7764aa013", null ],
+      [ "DEFERRED_GEOM", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71ab7396d316fa01122b80797052755b88b", null ],
+      [ "FORWARD_POINTS", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71a110c82c678a6feb33ceead64dc0cc65f", null ],
+      [ "TRANSLUCENT_OIT", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71a0a1eacf15c6247f4091f5f0d5f74be83", null ],
+      [ "TRANSLUCENT_OIT_SORT", "_vulkan_rendering_types_8h.html#a9fdac1faa69077127b3758a483efde71a87cc66381b5a2e83e5829c4ec3f5ab18", null ]
+    ] ]
 ];
