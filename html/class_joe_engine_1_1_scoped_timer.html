@@ -94,18 +94,67 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_scoped_timer.html
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_joe_engine_1_1_scoped_timer.html" title="The ScopedTimer class.">ScopedTimer</a> class.  
+ <a href="class_joe_engine_1_1_scoped_timer.html#details">More...</a></p>
+
 <p><code>#include &lt;ScopedTimer.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a2106b1e1baf660f777246ff2abbe3e5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_scoped_timer.html#a2106b1e1baf660f777246ff2abbe3e5b">ScopedTimer</a> ()=delete</td></tr>
+<tr class="memdesc:a2106b1e1baf660f777246ff2abbe3e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_joe_engine_1_1_scoped_timer.html#a2106b1e1baf660f777246ff2abbe3e5b">More...</a><br /></td></tr>
+<tr class="separator:a2106b1e1baf660f777246ff2abbe3e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa12595d1dd0e2331ba1d7eb4a550ab22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_scoped_timer.html#aa12595d1dd0e2331ba1d7eb4a550ab22">ScopedTimer</a> (const std::string &amp;endMsg, const std::string &amp;startMsg=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa12595d1dd0e2331ba1d7eb4a550ab22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_scoped_timer.html#aa12595d1dd0e2331ba1d7eb4a550ab22">More...</a><br /></td></tr>
 <tr class="separator:aa12595d1dd0e2331ba1d7eb4a550ab22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a171febef0c29a3a89adb59d4697a918c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_scoped_timer.html#a171febef0c29a3a89adb59d4697a918c">~ScopedTimer</a> ()</td></tr>
+<tr class="memdesc:a171febef0c29a3a89adb59d4697a918c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="class_joe_engine_1_1_scoped_timer.html#a171febef0c29a3a89adb59d4697a918c">More...</a><br /></td></tr>
 <tr class="separator:a171febef0c29a3a89adb59d4697a918c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class JoeEngine::ScopedTimer&lt; T &gt;</h3>
+
+<p>The <a class="el" href="class_joe_engine_1_1_scoped_timer.html" title="The ScopedTimer class.">ScopedTimer</a> class. </p>
+<p>Class dedicated to finding the elapsed time of a segment of code. It is meant to be used as follows, using temporary scopes:<br  />
+</p><pre>
+{<br  />
+  ScopedTimer&lt;float&gt; timer;<br  />
+  (code to profile)<br  />
+}
+</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2106b1e1baf660f777246ff2abbe3e5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2106b1e1baf660f777246ff2abbe3e5b">&#9670;&nbsp;</a></span>ScopedTimer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_joe_engine_1_1_scoped_timer.html">JoeEngine::ScopedTimer</a>&lt; T &gt;::<a class="el" href="class_joe_engine_1_1_scoped_timer.html">ScopedTimer</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+<p>Deleted. </p>
+
+</div>
+</div>
 <a id="aa12595d1dd0e2331ba1d7eb4a550ab22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa12595d1dd0e2331ba1d7eb4a550ab22">&#9670;&nbsp;</a></span>ScopedTimer()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12595d1dd0e2331ba1d7eb4a550ab22">&#9670;&nbsp;</a></span>ScopedTimer() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,6 +189,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<p>Prints the start message and initializes the start time member. </p>
+
 </div>
 </div>
 <a id="a171febef0c29a3a89adb59d4697a918c"></a>
@@ -166,6 +218,9 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destructor. </p>
+<p>Calculates the elapsed time since construction and prints the end message. </p>
 
 </div>
 </div>

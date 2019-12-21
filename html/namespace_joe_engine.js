@@ -11,7 +11,6 @@ var namespace_joe_engine =
     [ "je_post_processing_pass_t", "struct_joe_engine_1_1je__post__processing__pass__t.html", "struct_joe_engine_1_1je__post__processing__pass__t" ],
     [ "JE_PushConst_ModelMat", "struct_joe_engine_1_1_j_e___push_const___model_mat.html", "struct_joe_engine_1_1_j_e___push_const___model_mat" ],
     [ "JE_PushConst_ViewProj", "struct_joe_engine_1_1_j_e___push_const___view_proj.html", "struct_joe_engine_1_1_j_e___push_const___view_proj" ],
-    [ "je_sample_data_t", "struct_joe_engine_1_1je__sample__data__t.html", "struct_joe_engine_1_1je__sample__data__t" ],
     [ "je_thread_job_t", "struct_joe_engine_1_1je__thread__job__t.html", "struct_joe_engine_1_1je__thread__job__t" ],
     [ "JECamera", "class_joe_engine_1_1_j_e_camera.html", "class_joe_engine_1_1_j_e_camera" ],
     [ "JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html", "class_joe_engine_1_1_j_e_component_manager" ],

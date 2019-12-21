@@ -10,7 +10,6 @@ var hierarchy =
     [ "JoeEngine::je_post_processing_pass_t", "struct_joe_engine_1_1je__post__processing__pass__t.html", null ],
     [ "JoeEngine::JE_PushConst_ModelMat", "struct_joe_engine_1_1_j_e___push_const___model_mat.html", null ],
     [ "JoeEngine::JE_PushConst_ViewProj", "struct_joe_engine_1_1_j_e___push_const___view_proj.html", null ],
-    [ "JoeEngine::je_sample_data_t", "struct_joe_engine_1_1je__sample__data__t.html", null ],
     [ "JoeEngine::je_thread_job_t", "struct_joe_engine_1_1je__thread__job__t.html", null ],
     [ "JoeEngine::JECamera", "class_joe_engine_1_1_j_e_camera.html", null ],
     [ "JoeEngine::JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html", [

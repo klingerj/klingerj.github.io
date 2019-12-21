@@ -94,18 +94,27 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_thread_pool.h
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html" title="The JEThreadPool class.">JEThreadPool</a> class.  
+ <a href="class_joe_engine_1_1_j_e_thread_pool.html#details">More...</a></p>
+
 <p><code>#include &lt;ThreadPool.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a733cc982641dedae4b18be161fedd0e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html#a733cc982641dedae4b18be161fedd0e0">JEThreadPool</a> ()</td></tr>
+<tr class="memdesc:a733cc982641dedae4b18be161fedd0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_thread_pool.html#a733cc982641dedae4b18be161fedd0e0">More...</a><br /></td></tr>
 <tr class="separator:a733cc982641dedae4b18be161fedd0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a672a636d74141de548b43d10c7ed9835"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html#a672a636d74141de548b43d10c7ed9835">~JEThreadPool</a> ()</td></tr>
+<tr class="memdesc:a672a636d74141de548b43d10c7ed9835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="class_joe_engine_1_1_j_e_thread_pool.html#a672a636d74141de548b43d10c7ed9835">More...</a><br /></td></tr>
 <tr class="separator:a672a636d74141de548b43d10c7ed9835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f57ae1ef6b4a3c84814387a5fe1b23d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html#a1f57ae1ef6b4a3c84814387a5fe1b23d">EnqueueJob</a> (<a class="el" href="namespace_joe_engine.html#ac8d04fe8f47b096335a525df1172cfa6">JEThreadJob</a> job)</td></tr>
+<tr class="memdesc:a1f57ae1ef6b4a3c84814387a5fe1b23d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enqueue thread job.  <a href="class_joe_engine_1_1_j_e_thread_pool.html#a1f57ae1ef6b4a3c84814387a5fe1b23d">More...</a><br /></td></tr>
 <tr class="separator:a1f57ae1ef6b4a3c84814387a5fe1b23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_joe_engine_1_1_j_e_thread_pool.html" title="The JEThreadPool class.">JEThreadPool</a> class. </p>
+<p>Class that manages any number of threads and a queue of tasks to complete. Threads are created and launched upon construction. Threads run in an infinite loop, block until the queue is populated with a task (or multiple), then execute the task. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a733cc982641dedae4b18be161fedd0e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a733cc982641dedae4b18be161fedd0e0">&#9670;&nbsp;</a></span>JEThreadPool()</h2>
 
@@ -128,6 +137,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<p>Creates and launches all threads in the pool. </p>
 
 </div>
 </div>
@@ -154,6 +166,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Destructor. </p>
+<p>Joins threads. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -172,6 +187,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enqueue thread job. </p>
+<p>Synchronously add a new thread job to the job queue. </p>
 
 </div>
 </div>
