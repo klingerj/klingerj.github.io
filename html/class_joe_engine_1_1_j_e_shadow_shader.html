@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_shadow_shader
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html" title="The JEShadowShader.">JEShadowShader</a>.  
+ <a href="class_joe_engine_1_1_j_e_shadow_shader.html#details">More...</a></p>
+
 <p><code>#include &lt;VulkanShader.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for JoeEngine::JEShadowShader:</div>
@@ -101,63 +104,90 @@ Inheritance diagram for JoeEngine::JEShadowShader:</div>
  <div class="center">
   <img src="class_joe_engine_1_1_j_e_shadow_shader.png" usemap="#JoeEngine::JEShadowShader_map" alt=""/>
   <map id="JoeEngine::JEShadowShader_map" name="JoeEngine::JEShadowShader_map">
-<area href="class_joe_engine_1_1_j_e_vulkan_shader.html" alt="JoeEngine::JEVulkanShader" shape="rect" coords="0,56,179,80"/>
-<area href="class_joe_engine_1_1_j_e_shader.html" alt="JoeEngine::JEShader" shape="rect" coords="0,0,179,24"/>
+<area href="class_joe_engine_1_1_j_e_vulkan_shader.html" title="The JEVulkanShader." alt="JoeEngine::JEVulkanShader" shape="rect" coords="0,56,179,80"/>
+<area href="class_joe_engine_1_1_j_e_shader.html" title="The JEShader class." alt="JoeEngine::JEShader" shape="rect" coords="0,0,179,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6a613184f9e1d7c87e43423a90eab649"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html#a6a613184f9e1d7c87e43423a90eab649">JEShadowShader</a> ()=delete</td></tr>
+<tr class="memdesc:a6a613184f9e1d7c87e43423a90eab649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor (deleted).  <a href="class_joe_engine_1_1_j_e_shadow_shader.html#a6a613184f9e1d7c87e43423a90eab649">More...</a><br /></td></tr>
 <tr class="separator:a6a613184f9e1d7c87e43423a90eab649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af809fda84010047fe928c9e8472c01df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html#af809fda84010047fe928c9e8472c01df">JEShadowShader</a> (const <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;materialComponent, uint32_t numSourceTextures, VkDevice device, VkPhysicalDevice physicalDevice, VkExtent2D extent, VkRenderPass renderPass, const std::string &amp;vertPath, const std::string &amp;fragPath)</td></tr>
+<tr class="memdesc:af809fda84010047fe928c9e8472c01df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_shadow_shader.html#af809fda84010047fe928c9e8472c01df">More...</a><br /></td></tr>
 <tr class="separator:af809fda84010047fe928c9e8472c01df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccbc3fde9480622377a750654232d93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html#acccbc3fde9480622377a750654232d93">BindPushConstants_ViewProj</a> (VkCommandBuffer commandBuffer, const glm::mat4 &amp;viewProj) const</td></tr>
+<tr class="memdesc:acccbc3fde9480622377a750654232d93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind the view-projection matrix push constant.  <a href="class_joe_engine_1_1_j_e_shadow_shader.html#acccbc3fde9480622377a750654232d93">More...</a><br /></td></tr>
 <tr class="separator:acccbc3fde9480622377a750654232d93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b7485db7601c4c42a16b89c0fe65b50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html#a6b7485db7601c4c42a16b89c0fe65b50">BindPushConstants_InstancedData</a> (VkCommandBuffer commandBuffer, const std::array&lt; uint32_t, 4 &gt; &amp;instancedData) const</td></tr>
+<tr class="memdesc:a6b7485db7601c4c42a16b89c0fe65b50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind the instanced data push constant.  <a href="class_joe_engine_1_1_j_e_shadow_shader.html#a6b7485db7601c4c42a16b89c0fe65b50">More...</a><br /></td></tr>
 <tr class="separator:a6b7485db7601c4c42a16b89c0fe65b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_joe_engine_1_1_j_e_vulkan_shader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html">JoeEngine::JEVulkanShader</a></td></tr>
+<tr class="memitem:a2cbb3a4620e37b2cbc2147d09114491d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a2cbb3a4620e37b2cbc2147d09114491d">JEVulkanShader</a> ()=delete</td></tr>
+<tr class="memdesc:a2cbb3a4620e37b2cbc2147d09114491d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor (deleted).  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a2cbb3a4620e37b2cbc2147d09114491d">More...</a><br /></td></tr>
+<tr class="separator:a2cbb3a4620e37b2cbc2147d09114491d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59360989c14b42777294d57b67effda8 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a59360989c14b42777294d57b67effda8">JEVulkanShader</a> (VkDevice device, const std::string &amp;vertPath, const std::string &amp;fragPath)</td></tr>
+<tr class="memdesc:a59360989c14b42777294d57b67effda8 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a59360989c14b42777294d57b67effda8">More...</a><br /></td></tr>
 <tr class="separator:a59360989c14b42777294d57b67effda8 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c2113db886b4350169ae3703314692d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a7c2113db886b4350169ae3703314692d">~JEVulkanShader</a> ()</td></tr>
-<tr class="separator:a7c2113db886b4350169ae3703314692d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae568925952711e5e2d6593ba5c540aff inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#ae568925952711e5e2d6593ba5c540aff">~JEVulkanShader</a> ()=default</td></tr>
+<tr class="memdesc:ae568925952711e5e2d6593ba5c540aff inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor (default) (deleted).  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#ae568925952711e5e2d6593ba5c540aff">More...</a><br /></td></tr>
+<tr class="separator:ae568925952711e5e2d6593ba5c540aff inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15d08a18c66dc6aa8b5a23888af905ae inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a15d08a18c66dc6aa8b5a23888af905ae">Cleanup</a> () override</td></tr>
+<tr class="memdesc:a15d08a18c66dc6aa8b5a23888af905ae inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vulkan API-specific cleanup function.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a15d08a18c66dc6aa8b5a23888af905ae">More...</a><br /></td></tr>
 <tr class="separator:a15d08a18c66dc6aa8b5a23888af905ae inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43f56325c20c36d84eb93e6ce01dc57a inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a43f56325c20c36d84eb93e6ce01dc57a">UpdateUniformBuffers</a> (VkDevice device, uint32_t currentImage) override</td></tr>
+<tr class="memdesc:a43f56325c20c36d84eb93e6ce01dc57a inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default shader data buffer update function.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a43f56325c20c36d84eb93e6ce01dc57a">More...</a><br /></td></tr>
 <tr class="separator:a43f56325c20c36d84eb93e6ce01dc57a inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fafb9dde5c4626b1d1bc15aa052c632 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a3fafb9dde5c4626b1d1bc15aa052c632">GetPipeline</a> () const</td></tr>
 <tr class="separator:a3fafb9dde5c4626b1d1bc15aa052c632 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a511fc3dd2fe7df515d2f2b9365325553 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">VkPipelineLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a511fc3dd2fe7df515d2f2b9365325553">GetPipelineLayout</a> () const</td></tr>
 <tr class="separator:a511fc3dd2fe7df515d2f2b9365325553 inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad35fd32012adea097269460bab02df6c inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">VkDescriptorSetLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#ad35fd32012adea097269460bab02df6c">GetDescriptorSetLayout</a> (uint32_t index) const</td></tr>
+<tr class="memdesc:ad35fd32012adea097269460bab02df6c inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get descriptor set layout object.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#ad35fd32012adea097269460bab02df6c">More...</a><br /></td></tr>
 <tr class="separator:ad35fd32012adea097269460bab02df6c inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_joe_engine_1_1_j_e_shader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_joe_engine_1_1_j_e_shader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_joe_engine_1_1_j_e_shader.html">JoeEngine::JEShader</a></td></tr>
+<tr class="memitem:a8b4131659b9cf982b15637c4b3198cd6 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html#a8b4131659b9cf982b15637c4b3198cd6">JEShader</a> ()=delete</td></tr>
+<tr class="memdesc:a8b4131659b9cf982b15637c4b3198cd6 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete constructor (deleted).  <a href="class_joe_engine_1_1_j_e_shader.html#a8b4131659b9cf982b15637c4b3198cd6">More...</a><br /></td></tr>
+<tr class="separator:a8b4131659b9cf982b15637c4b3198cd6 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa65f265c9d57814ec7b9bf395da02659 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html#aa65f265c9d57814ec7b9bf395da02659">JEShader</a> (const std::string &amp;vertPath, const std::string &amp;fragPath)</td></tr>
+<tr class="memdesc:aa65f265c9d57814ec7b9bf395da02659 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_shader.html#aa65f265c9d57814ec7b9bf395da02659">More...</a><br /></td></tr>
 <tr class="separator:aa65f265c9d57814ec7b9bf395da02659 inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a512fd05c8dbd7cc1ecf546deb9f803ed inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html#a512fd05c8dbd7cc1ecf546deb9f803ed">~JEShader</a> ()=default</td></tr>
+<tr class="memdesc:a512fd05c8dbd7cc1ecf546deb9f803ed inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor (default) (virtual).  <a href="class_joe_engine_1_1_j_e_shader.html#a512fd05c8dbd7cc1ecf546deb9f803ed">More...</a><br /></td></tr>
 <tr class="separator:a512fd05c8dbd7cc1ecf546deb9f803ed inherit pub_methods_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_joe_engine_1_1_j_e_vulkan_shader')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html">JoeEngine::JEVulkanShader</a></td></tr>
 <tr class="memitem:a01cbed7cdf4ca1f8de25f66521557a44 inherit pro_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a01cbed7cdf4ca1f8de25f66521557a44">CreateDescriptorSetLayouts</a> (VkDevice device, uint32_t numSourceTextures, uint32_t numUniformBuffers, uint32_t numStorageBuffers)</td></tr>
+<tr class="memdesc:a01cbed7cdf4ca1f8de25f66521557a44 inherit pro_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class version of descriptor set layout creation.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a01cbed7cdf4ca1f8de25f66521557a44">More...</a><br /></td></tr>
 <tr class="separator:a01cbed7cdf4ca1f8de25f66521557a44 inherit pro_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html">JoeEngine::JEVulkanShader</a></td></tr>
 <tr class="memitem:a1cccbbb263cb82a39e234d4515ed01c6 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">VkPipeline&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a1cccbbb263cb82a39e234d4515ed01c6">m_graphicsPipeline</a> = VK_NULL_HANDLE</td></tr>
+<tr class="memdesc:a1cccbbb263cb82a39e234d4515ed01c6 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Graphics pipeline object.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a1cccbbb263cb82a39e234d4515ed01c6">More...</a><br /></td></tr>
 <tr class="separator:a1cccbbb263cb82a39e234d4515ed01c6 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb0cbef2343f89413e4d9569cb52474 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">VkPipelineLayout&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a6bb0cbef2343f89413e4d9569cb52474">m_pipelineLayout</a> = VK_NULL_HANDLE</td></tr>
+<tr class="memdesc:a6bb0cbef2343f89413e4d9569cb52474 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pipeline layout object.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a6bb0cbef2343f89413e4d9569cb52474">More...</a><br /></td></tr>
 <tr class="separator:a6bb0cbef2343f89413e4d9569cb52474 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b370f35797aefe4492f0e12b0669b24 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">std::vector&lt; VkDescriptorSetLayout &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a0b370f35797aefe4492f0e12b0669b24">m_descriptorSetLayouts</a></td></tr>
+<tr class="memdesc:a0b370f35797aefe4492f0e12b0669b24 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of descriptor set layouts (number of elements dependent on the purpose of the derived shader).  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a0b370f35797aefe4492f0e12b0669b24">More...</a><br /></td></tr>
 <tr class="separator:a0b370f35797aefe4492f0e12b0669b24 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a682d16b98035fa584d56dce2cdba2a99 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">const VkDevice&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a682d16b98035fa584d56dce2cdba2a99">m_device</a></td></tr>
+<tr class="memdesc:a682d16b98035fa584d56dce2cdba2a99 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the Vulkan logical device.  <a href="class_joe_engine_1_1_j_e_vulkan_shader.html#a682d16b98035fa584d56dce2cdba2a99">More...</a><br /></td></tr>
 <tr class="separator:a682d16b98035fa584d56dce2cdba2a99 inherit pro_attribs_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_joe_engine_1_1_j_e_shader"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_joe_engine_1_1_j_e_shader')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_joe_engine_1_1_j_e_shader.html">JoeEngine::JEShader</a></td></tr>
 <tr class="memitem:a012568c4faf323a70986352bf5f3d195 inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html#a012568c4faf323a70986352bf5f3d195">m_vertPath</a></td></tr>
+<tr class="memdesc:a012568c4faf323a70986352bf5f3d195 inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to vertex shader source file.  <a href="class_joe_engine_1_1_j_e_shader.html#a012568c4faf323a70986352bf5f3d195">More...</a><br /></td></tr>
 <tr class="separator:a012568c4faf323a70986352bf5f3d195 inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f1575199c5e37f9d166a1468fcfa6c inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader.html#a31f1575199c5e37f9d166a1468fcfa6c">m_fragPath</a></td></tr>
+<tr class="memdesc:a31f1575199c5e37f9d166a1468fcfa6c inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to fragment shader source file.  <a href="class_joe_engine_1_1_j_e_shader.html#a31f1575199c5e37f9d166a1468fcfa6c">More...</a><br /></td></tr>
 <tr class="separator:a31f1575199c5e37f9d166a1468fcfa6c inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_joe_engine_1_1_j_e_shadow_shader.html" title="The JEShadowShader.">JEShadowShader</a>. </p>
+<p>Vulkan shader class variant for shadow pass rendering. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joe_engine_1_1_j_e_shader.html" title="The JEShader class.">JEShader</a>, <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html" title="The JEVulkanShader.">JEVulkanShader</a> </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6a613184f9e1d7c87e43423a90eab649"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a613184f9e1d7c87e43423a90eab649">&#9670;&nbsp;</a></span>JEShadowShader() <span class="overload">[1/2]</span></h2>
 
@@ -180,6 +210,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Default constructor (deleted). </p>
 
 </div>
 </div>
@@ -253,6 +285,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<p>Loads the specified shader files from the source paths and creates the Vulkan objects based on the material properties. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -282,6 +317,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Bind the instanced data push constant. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commandBuffer</td><td>the command buffer to record the bind command to. </td></tr>
+    <tr><td class="paramname">instancedData</td><td>per-geometry-instance data to provide to the shader. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="acccbc3fde9480622377a750654232d93"></a>
@@ -309,6 +353,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Bind the view-projection matrix push constant. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commandBuffer</td><td>the command buffer to record the bind command to. </td></tr>
+    <tr><td class="paramname">viewProj</td><td>the view projection matrix to provide to the shader. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

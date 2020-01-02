@@ -10,7 +10,6 @@ var _vulkan_shader_8h =
     [ "JEDeferredShader", "class_joe_engine_1_1_j_e_deferred_shader.html", "class_joe_engine_1_1_j_e_deferred_shader" ],
     [ "JEForwardShader", "class_joe_engine_1_1_j_e_forward_shader.html", "class_joe_engine_1_1_j_e_forward_shader" ],
     [ "JEPointsShader", "class_joe_engine_1_1_j_e_points_shader.html", "class_joe_engine_1_1_j_e_points_shader" ],
-    [ "JEForwardTranslucentShader", "class_joe_engine_1_1_j_e_forward_translucent_shader.html", "class_joe_engine_1_1_j_e_forward_translucent_shader" ],
     [ "JEOITSortShader", "class_joe_engine_1_1_j_e_o_i_t_sort_shader.html", "class_joe_engine_1_1_j_e_o_i_t_sort_shader" ],
     [ "CreateShaderModule", "_vulkan_shader_8h.html#ae8019b7eb6b40f7a018c174a51390da6", null ],
     [ "ReadFile", "_vulkan_shader_8h.html#ac8c951069d4e3d4051bf02f7ba0e2572", null ]

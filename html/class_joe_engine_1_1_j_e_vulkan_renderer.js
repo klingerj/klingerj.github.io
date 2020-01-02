@@ -1,7 +1,7 @@
 var class_joe_engine_1_1_j_e_vulkan_renderer =
 [
     [ "JEVulkanRenderer", "class_joe_engine_1_1_j_e_vulkan_renderer.html#a4c8270959e1750c301a01ddd49bb1e5a", null ],
-    [ "~JEVulkanRenderer", "class_joe_engine_1_1_j_e_vulkan_renderer.html#a542680f0f125d858a81737a81a22fc0a", null ],
+    [ "~JEVulkanRenderer", "class_joe_engine_1_1_j_e_vulkan_renderer.html#a8ba2af9b9b01b77c45562184d79e8539", null ],
     [ "Cleanup", "class_joe_engine_1_1_j_e_vulkan_renderer.html#a321e12a7d6af7f70752d6b42e3151173", null ],
     [ "CreateDescriptor", "class_joe_engine_1_1_j_e_vulkan_renderer.html#a0aa6c5e2f65a7b9208551cc536ffc3fb", null ],
     [ "CreateMesh", "class_joe_engine_1_1_j_e_vulkan_renderer.html#ab9dcb00c81636e6567f91716c9a674f5", null ],

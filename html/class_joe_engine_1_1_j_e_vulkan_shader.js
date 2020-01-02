@@ -1,7 +1,8 @@
 var class_joe_engine_1_1_j_e_vulkan_shader =
 [
+    [ "JEVulkanShader", "class_joe_engine_1_1_j_e_vulkan_shader.html#a2cbb3a4620e37b2cbc2147d09114491d", null ],
     [ "JEVulkanShader", "class_joe_engine_1_1_j_e_vulkan_shader.html#a59360989c14b42777294d57b67effda8", null ],
-    [ "~JEVulkanShader", "class_joe_engine_1_1_j_e_vulkan_shader.html#a7c2113db886b4350169ae3703314692d", null ],
+    [ "~JEVulkanShader", "class_joe_engine_1_1_j_e_vulkan_shader.html#ae568925952711e5e2d6593ba5c540aff", null ],
     [ "Cleanup", "class_joe_engine_1_1_j_e_vulkan_shader.html#a15d08a18c66dc6aa8b5a23888af905ae", null ],
     [ "CreateDescriptorSetLayouts", "class_joe_engine_1_1_j_e_vulkan_shader.html#a01cbed7cdf4ca1f8de25f66521557a44", null ],
     [ "CreateGraphicsPipeline", "class_joe_engine_1_1_j_e_vulkan_shader.html#a0bb929478ba312dc2178b00c5d18e95b", null ],

@@ -94,30 +94,47 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_shader_manage
 </div><!--header-->
 <div class="contents">
 
+<p>The JEShaderManger class.  
+ <a href="class_joe_engine_1_1_j_e_shader_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;ShaderManager.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac01da0fb9b9ee3890005f44ff91bf079"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#ac01da0fb9b9ee3890005f44ff91bf079">JEShaderManager</a> ()</td></tr>
+<tr class="memdesc:ac01da0fb9b9ee3890005f44ff91bf079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#ac01da0fb9b9ee3890005f44ff91bf079">More...</a><br /></td></tr>
 <tr class="separator:ac01da0fb9b9ee3890005f44ff91bf079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6faa79cd69d57e4605313b729c79b760"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#a6faa79cd69d57e4605313b729c79b760">JEShaderManager</a> (VkDevice device)</td></tr>
+<tr class="memdesc:a6faa79cd69d57e4605313b729c79b760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary constructor.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#a6faa79cd69d57e4605313b729c79b760">More...</a><br /></td></tr>
 <tr class="separator:a6faa79cd69d57e4605313b729c79b760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2144c81a582e709d27a99c2dba9b8c06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#a2144c81a582e709d27a99c2dba9b8c06">~JEShaderManager</a> ()=default</td></tr>
+<tr class="memdesc:a2144c81a582e709d27a99c2dba9b8c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor (default).  <a href="class_joe_engine_1_1_j_e_shader_manager.html#a2144c81a582e709d27a99c2dba9b8c06">More...</a><br /></td></tr>
 <tr class="separator:a2144c81a582e709d27a99c2dba9b8c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46202751982986bd45eb877dbec0150a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#a46202751982986bd45eb877dbec0150a">CreateShader</a> (VkDevice device, VkPhysicalDevice physicalDevice, const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html">JEVulkanSwapChain</a> &amp;swapChain, const <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;materialComponent, uint32_t numSourceTextures, VkRenderPass renderPass, const std::string &amp;vertPath, const std::string &amp;fragPath, <a class="el" href="namespace_joe_engine.html#a53ed93ee20c83366223f596a98f99a8f">PipelineType</a> type)</td></tr>
+<tr class="memdesc:a46202751982986bd45eb877dbec0150a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new shader.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#a46202751982986bd45eb877dbec0150a">More...</a><br /></td></tr>
 <tr class="separator:a46202751982986bd45eb877dbec0150a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5dbd53ea7839580918069893d70397f"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#ae5dbd53ea7839580918069893d70397f">CreateDescriptor</a> (VkDevice device, VkPhysicalDevice physicalDevice, const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html">JEVulkanSwapChain</a> &amp;swapChain, const std::vector&lt; std::vector&lt; VkImageView &gt;&gt; &amp;imageViews, const std::vector&lt; VkSampler &gt; &amp;samplers, const std::vector&lt; uint32_t &gt; &amp;bufferSizes, const std::vector&lt; uint32_t &gt; &amp;ssboSizes, VkDescriptorSetLayout layout, <a class="el" href="namespace_joe_engine.html#a53ed93ee20c83366223f596a98f99a8f">PipelineType</a> type, bool recreate, uint32_t recreateIdx=UINT32_MAX)</td></tr>
+<tr class="memdesc:ae5dbd53ea7839580918069893d70397f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create descriptor.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#ae5dbd53ea7839580918069893d70397f">More...</a><br /></td></tr>
 <tr class="separator:ae5dbd53ea7839580918069893d70397f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae2fd556e23865df33df521d85a8a7eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_joe_engine_1_1_j_e_shader.html">JEShader</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#aae2fd556e23865df33df521d85a8a7eb">GetShaderAt</a> (int shaderID) const</td></tr>
+<tr class="memdesc:aae2fd556e23865df33df521d85a8a7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get shader object.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#aae2fd556e23865df33df521d85a8a7eb">More...</a><br /></td></tr>
 <tr class="separator:aae2fd556e23865df33df521d85a8a7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93897b764fdaee40ac519e1c6243be4b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_descriptor.html">JEVulkanDescriptor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#a93897b764fdaee40ac519e1c6243be4b">GetDescriptorAt</a> (int descriptorID) const</td></tr>
+<tr class="memdesc:a93897b764fdaee40ac519e1c6243be4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get descriptor object.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#a93897b764fdaee40ac519e1c6243be4b">More...</a><br /></td></tr>
 <tr class="separator:a93897b764fdaee40ac519e1c6243be4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af04929a979b7f43c4c3165b11fe433a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#af04929a979b7f43c4c3165b11fe433a9">UpdateBuffers</a> (VkDevice device, uint32_t descriptorID, uint32_t imageIndex, const std::vector&lt; const void * &gt; &amp;buffers, const std::vector&lt; uint32_t &gt; &amp;bufferSizes, const std::vector&lt; const void * &gt; &amp;ssboBuffers, const std::vector&lt; uint32_t &gt; &amp;ssboSizes)</td></tr>
+<tr class="memdesc:af04929a979b7f43c4c3165b11fe433a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the uniform and shader storage buffers of the specified descriptor.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#af04929a979b7f43c4c3165b11fe433a9">More...</a><br /></td></tr>
 <tr class="separator:af04929a979b7f43c4c3165b11fe433a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a904da90bef00f0db239dca265b021d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_shader_manager.html#a904da90bef00f0db239dca265b021d10">Cleanup</a> ()</td></tr>
+<tr class="memdesc:a904da90bef00f0db239dca265b021d10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup all managed shader and descriptor objects.  <a href="class_joe_engine_1_1_j_e_shader_manager.html#a904da90bef00f0db239dca265b021d10">More...</a><br /></td></tr>
 <tr class="separator:a904da90bef00f0db239dca265b021d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The JEShaderManger class. </p>
+<p>Class that manages all shader resources, including shader pipeline objects and descriptor objects. Provides creation and getter convenience functions. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joe_engine_1_1_j_e_shader.html" title="The JEShader class.">JEShader</a>, <a class="el" href="class_joe_engine_1_1_j_e_vulkan_descriptor.html" title="The JEVulkanDescriptor class.">JEVulkanDescriptor</a>, </dd>
+<dd>
+<a class="el" href="class_joe_engine_1_1_j_e_vulkan_renderer.html" title="The JEVulkanRenderer class.">JEVulkanRenderer</a> </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac01da0fb9b9ee3890005f44ff91bf079"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac01da0fb9b9ee3890005f44ff91bf079">&#9670;&nbsp;</a></span>JEShaderManager() <span class="overload">[1/2]</span></h2>
 
@@ -140,6 +157,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Default constructor. </p>
 
 </div>
 </div>
@@ -167,6 +186,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Primary constructor. </p>
+
 </div>
 </div>
 <a id="a2144c81a582e709d27a99c2dba9b8c06"></a>
@@ -191,6 +212,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destructor (default). </p>
 
 </div>
 </div>
@@ -217,6 +240,8 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Cleanup all managed shader and descriptor objects. </p>
 
 </div>
 </div>
@@ -308,6 +333,25 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Create descriptor. </p>
+<p>Creates a new descriptor object given various images and buffers. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>the Vulkan logical device. </td></tr>
+    <tr><td class="paramname">physicalDevice</td><td>the Vulkan physical device. </td></tr>
+    <tr><td class="paramname">swapChain</td><td>the Vulkan swap chain. </td></tr>
+    <tr><td class="paramname">imageViews</td><td>list of Vulkan image view objects. </td></tr>
+    <tr><td class="paramname">samplers</td><td>list of Vulkna texture sampler objects. </td></tr>
+    <tr><td class="paramname">bufferSizes</td><td>list of sizes of each uniform buffer. </td></tr>
+    <tr><td class="paramname">ssboSizes</td><td>list of sizes for each shader storage buffer. </td></tr>
+    <tr><td class="paramname">layout</td><td>the Vulkan descriptor set layout for the new descriptor object. </td></tr>
+    <tr><td class="paramname">type</td><td>the shader pipeline type that this descriptor will be used with (and must be compatible with). </td></tr>
+    <tr><td class="paramname">recreate</td><td>flag indicating whether this function is being called to recreate an existing descriptor object or to create a new one. </td></tr>
+    <tr><td class="paramname">recreateIdx</td><td>if we are recreating an existing descriptor object, this is the ID of that descriptor object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>an ID corresponding to the newly created descriptor. </dd></dl>
+
 </div>
 </div>
 <a id="a46202751982986bd45eb877dbec0150a"></a>
@@ -386,6 +430,23 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Create new shader. </p>
+<p>Creates a new shader given the necessary shader pipeline settings. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>the Vulkan logical device. </td></tr>
+    <tr><td class="paramname">physicalDevice</td><td>the Vulkan physical device. </td></tr>
+    <tr><td class="paramname">swapChain</td><td>the Vulkan swap chain. </td></tr>
+    <tr><td class="paramname">materialComponent</td><td>the material component with shader settings. </td></tr>
+    <tr><td class="paramname">numSourceTextures</td><td>the number of source textures for the shader. </td></tr>
+    <tr><td class="paramname">renderPass</td><td>the Vulkan render pass object during which the new shader will be used. </td></tr>
+    <tr><td class="paramname">vertPath</td><td>the vertex shader file source path. </td></tr>
+    <tr><td class="paramname">fragPath</td><td>the fragment shader file source path. </td></tr>
+    <tr><td class="paramname">type</td><td>the shader pipeline type enum. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a shader ID corresponding to the newly created shader object. </dd></dl>
+
 </div>
 </div>
 <a id="a93897b764fdaee40ac519e1c6243be4b"></a>
@@ -412,6 +473,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Get descriptor object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">descriptorID</td><td>the ID of the descriptor object to access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the descriptor object corresponding to the given ID. </dd></dl>
+
 </div>
 </div>
 <a id="aae2fd556e23865df33df521d85a8a7eb"></a>
@@ -437,6 +507,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get shader object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shaderID</td><td>the ID of the shader object to access. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the shader object corresponding to the given ID. </dd></dl>
 
 </div>
 </div>
@@ -503,6 +582,20 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Update the uniform and shader storage buffers of the specified descriptor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">device</td><td>the Vulkan logical device. </td></tr>
+    <tr><td class="paramname">descriptorID</td><td>the ID of the descriptor object to update. </td></tr>
+    <tr><td class="paramname">imageIndex</td><td>the currently active swap chain image index. </td></tr>
+    <tr><td class="paramname">buffers</td><td>list of uniform data buffers </td></tr>
+    <tr><td class="paramname">bufferSizes</td><td>list of uniform data buffer sizes </td></tr>
+    <tr><td class="paramname">ssboBuffers</td><td>list of shader storage data buffers </td></tr>
+    <tr><td class="paramname">ssboSizes</td><td>list of shader storage data buffer sizes </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

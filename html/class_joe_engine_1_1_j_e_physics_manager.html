@@ -94,20 +94,30 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_physics_manag
 </div><!--header-->
 <div class="contents">
 
+<p>The Physics Manager class.  
+ <a href="class_joe_engine_1_1_j_e_physics_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;PhysicsManager.h&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fd129daaac13609bf06f52c47c364c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html#a5fd129daaac13609bf06f52c47c364c0">JEPhysicsManager</a> ()</td></tr>
+<tr class="memdesc:a5fd129daaac13609bf06f52c47c364c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_physics_manager.html#a5fd129daaac13609bf06f52c47c364c0">More...</a><br /></td></tr>
 <tr class="separator:a5fd129daaac13609bf06f52c47c364c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eb7e359743c8e33f8e141541beb4bd8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html#a7eb7e359743c8e33f8e141541beb4bd8">~JEPhysicsManager</a> ()</td></tr>
-<tr class="separator:a7eb7e359743c8e33f8e141541beb4bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac97eea4b477d60c65d585889b0b2a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html#adac97eea4b477d60c65d585889b0b2a8">~JEPhysicsManager</a> ()=default</td></tr>
+<tr class="memdesc:adac97eea4b477d60c65d585889b0b2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor (default).  <a href="class_joe_engine_1_1_j_e_physics_manager.html#adac97eea4b477d60c65d585889b0b2a8">More...</a><br /></td></tr>
+<tr class="separator:adac97eea4b477d60c65d585889b0b2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6639402f6d8a4a39329c8828754ccd7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html#a6639402f6d8a4a39329c8828754ccd7d">Initialize</a> ()</td></tr>
+<tr class="memdesc:a6639402f6d8a4a39329c8828754ccd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the class.  <a href="class_joe_engine_1_1_j_e_physics_manager.html#a6639402f6d8a4a39329c8828754ccd7d">More...</a><br /></td></tr>
 <tr class="separator:a6639402f6d8a4a39329c8828754ccd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cc699c84712b6e3e2e76434e5a0ae66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_physics_manager.html#a5cc699c84712b6e3e2e76434e5a0ae66">UpdateParticleSystems</a> (std::vector&lt; <a class="el" href="class_joe_engine_1_1_j_e_particle_system.html">JEParticleSystem</a> &gt; &amp;particleSystems)</td></tr>
+<tr class="memdesc:a5cc699c84712b6e3e2e76434e5a0ae66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update particle systems.  <a href="class_joe_engine_1_1_j_e_physics_manager.html#a5cc699c84712b6e3e2e76434e5a0ae66">More...</a><br /></td></tr>
 <tr class="separator:a5cc699c84712b6e3e2e76434e5a0ae66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The Physics Manager class. </p>
+<p>Class dedicated to making physics calculations at a framerate that is decoupled from the rendering framerate. Currently only used for particle system calculations.s </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5fd129daaac13609bf06f52c47c364c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fd129daaac13609bf06f52c47c364c0">&#9670;&nbsp;</a></span>JEPhysicsManager()</h2>
 
@@ -131,10 +141,13 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<p>Initializes update rate member variables. </p>
+
 </div>
 </div>
-<a id="a7eb7e359743c8e33f8e141541beb4bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7eb7e359743c8e33f8e141541beb4bd8">&#9670;&nbsp;</a></span>~JEPhysicsManager()</h2>
+<a id="adac97eea4b477d60c65d585889b0b2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac97eea4b477d60c65d585889b0b2a8">&#9670;&nbsp;</a></span>~JEPhysicsManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,10 +164,12 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Destructor (default). </p>
 
 </div>
 </div>
@@ -174,6 +189,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialize the class. </p>
+
 </div>
 </div>
 <a id="a5cc699c84712b6e3e2e76434e5a0ae66"></a>
@@ -191,6 +208,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Update particle systems. </p>
+<p>Performs an update on each provided particle system, if at least 'm_updateRateMillis' milliseconds have elapsed since the last update. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particleSystems</td><td>the list of particle systems to update. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

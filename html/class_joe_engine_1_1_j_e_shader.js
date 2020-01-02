@@ -1,5 +1,6 @@
 var class_joe_engine_1_1_j_e_shader =
 [
+    [ "JEShader", "class_joe_engine_1_1_j_e_shader.html#a8b4131659b9cf982b15637c4b3198cd6", null ],
     [ "JEShader", "class_joe_engine_1_1_j_e_shader.html#aa65f265c9d57814ec7b9bf395da02659", null ],
     [ "~JEShader", "class_joe_engine_1_1_j_e_shader.html#a512fd05c8dbd7cc1ecf546deb9f803ed", null ],
     [ "Cleanup", "class_joe_engine_1_1_j_e_shader.html#a811a717eb6ffafde693ebfee55d2c99d", null ],

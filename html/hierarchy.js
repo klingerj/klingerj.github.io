@@ -2,7 +2,6 @@ var hierarchy =
 [
     [ "JoeEngine::Entity", "class_joe_engine_1_1_entity.html", null ],
     [ "JoeEngine::je_framebuffer_attachment_t", "struct_joe_engine_1_1je__framebuffer__attachment__t.html", null ],
-    [ "JoeEngine::je_mesh_sstri_t", "struct_joe_engine_1_1je__mesh__sstri__t.html", null ],
     [ "JoeEngine::je_offscreen_deferred_pass_t", "struct_joe_engine_1_1je__offscreen__deferred__pass__t.html", null ],
     [ "JoeEngine::je_offscreen_forward_pass_t", "struct_joe_engine_1_1je__offscreen__forward__pass__t.html", null ],
     [ "JoeEngine::je_offscreen_shadow_pass_t", "struct_joe_engine_1_1je__offscreen__shadow__pass__t.html", null ],
@@ -10,6 +9,7 @@ var hierarchy =
     [ "JoeEngine::je_post_processing_pass_t", "struct_joe_engine_1_1je__post__processing__pass__t.html", null ],
     [ "JoeEngine::JE_PushConst_ModelMat", "struct_joe_engine_1_1_j_e___push_const___model_mat.html", null ],
     [ "JoeEngine::JE_PushConst_ViewProj", "struct_joe_engine_1_1_j_e___push_const___view_proj.html", null ],
+    [ "JoeEngine::je_single_mesh_t", "struct_joe_engine_1_1je__single__mesh__t.html", null ],
     [ "JoeEngine::je_thread_job_t", "struct_joe_engine_1_1je__thread__job__t.html", null ],
     [ "JoeEngine::JECamera", "class_joe_engine_1_1_j_e_camera.html", null ],
     [ "JoeEngine::JEComponentManager", "class_joe_engine_1_1_j_e_component_manager.html", [
@@ -35,14 +35,12 @@ var hierarchy =
         [ "JoeEngine::JEDeferredGeometryShader", "class_joe_engine_1_1_j_e_deferred_geometry_shader.html", null ],
         [ "JoeEngine::JEDeferredShader", "class_joe_engine_1_1_j_e_deferred_shader.html", null ],
         [ "JoeEngine::JEForwardShader", "class_joe_engine_1_1_j_e_forward_shader.html", null ],
-        [ "JoeEngine::JEForwardTranslucentShader", "class_joe_engine_1_1_j_e_forward_translucent_shader.html", null ],
         [ "JoeEngine::JEOITSortShader", "class_joe_engine_1_1_j_e_o_i_t_sort_shader.html", null ],
         [ "JoeEngine::JEPointsShader", "class_joe_engine_1_1_j_e_points_shader.html", null ],
         [ "JoeEngine::JEShadowShader", "class_joe_engine_1_1_j_e_shadow_shader.html", null ]
       ] ]
     ] ],
     [ "JoeEngine::JEShaderManager", "class_joe_engine_1_1_j_e_shader_manager.html", null ],
-    [ "JoeEngine::JETexture", "class_joe_engine_1_1_j_e_texture.html", null ],
     [ "JoeEngine::JETextureLibrary", "class_joe_engine_1_1_j_e_texture_library.html", null ],
     [ "JoeEngine::JEThreadPool", "class_joe_engine_1_1_j_e_thread_pool.html", null ],
     [ "JoeEngine::JEUBO_ViewProj_Inv", "struct_joe_engine_1_1_j_e_u_b_o___view_proj___inv.html", null ],
