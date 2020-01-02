@@ -94,6 +94,9 @@ $(document).ready(function(){initNavTree('class_joe_engine_1_1_j_e_forward_trans
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html" title="The JEForwardTranslucentShader class.">JEForwardTranslucentShader</a> class.  
+ <a href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#details">More...</a></p>
+
 <p><code>#include &lt;VulkanShader.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for JoeEngine::JEForwardTranslucentShader:</div>
@@ -109,12 +112,16 @@ Inheritance diagram for JoeEngine::JEForwardTranslucentShader:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa43ec441d9689a987a06a75b96e5154b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#aa43ec441d9689a987a06a75b96e5154b">JEForwardTranslucentShader</a> ()=delete</td></tr>
+<tr class="memdesc:aa43ec441d9689a987a06a75b96e5154b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor (deleted).  <a href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#aa43ec441d9689a987a06a75b96e5154b">More...</a><br /></td></tr>
 <tr class="separator:aa43ec441d9689a987a06a75b96e5154b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7465cdef22c8860fc8e82811587bdeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#ad7465cdef22c8860fc8e82811587bdeb">JEForwardTranslucentShader</a> (const <a class="el" href="class_joe_engine_1_1_material_component.html">MaterialComponent</a> &amp;materialComponent, uint32_t numSourceTextures, uint32_t numUniformBuffers, VkDevice device, VkPhysicalDevice physicalDevice, const <a class="el" href="class_joe_engine_1_1_j_e_vulkan_swap_chain.html">JEVulkanSwapChain</a> &amp;swapChain, VkRenderPass renderPass, bool enableOIT, const std::string &amp;vertPath, const std::string &amp;fragPath)</td></tr>
+<tr class="memdesc:ad7465cdef22c8860fc8e82811587bdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#ad7465cdef22c8860fc8e82811587bdeb">More...</a><br /></td></tr>
 <tr class="separator:ad7465cdef22c8860fc8e82811587bdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec6210ba5f0b0f4b7281c98d69534d31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#aec6210ba5f0b0f4b7281c98d69534d31">BindPushConstants_ViewProj</a> (VkCommandBuffer commandBuffer, const glm::mat4 &amp;viewProj) const</td></tr>
+<tr class="memdesc:aec6210ba5f0b0f4b7281c98d69534d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind the view-projection matrix push constant.  <a href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#aec6210ba5f0b0f4b7281c98d69534d31">More...</a><br /></td></tr>
 <tr class="separator:aec6210ba5f0b0f4b7281c98d69534d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dad6b523fec62207f7130ac643c38a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#a0dad6b523fec62207f7130ac643c38a8">BindPushConstants_InstancedData</a> (VkCommandBuffer commandBuffer, const std::array&lt; uint32_t, 4 &gt; &amp;instancedData) const</td></tr>
+<tr class="memdesc:a0dad6b523fec62207f7130ac643c38a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind the instanced data push constant.  <a href="class_joe_engine_1_1_j_e_forward_translucent_shader.html#a0dad6b523fec62207f7130ac643c38a8">More...</a><br /></td></tr>
 <tr class="separator:a0dad6b523fec62207f7130ac643c38a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_joe_engine_1_1_j_e_vulkan_shader')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html">JoeEngine::JEVulkanShader</a></td></tr>
 <tr class="memitem:a2cbb3a4620e37b2cbc2147d09114491d inherit pub_methods_class_joe_engine_1_1_j_e_vulkan_shader"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html#a2cbb3a4620e37b2cbc2147d09114491d">JEVulkanShader</a> ()=delete</td></tr>
@@ -173,7 +180,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a31f1575199c5e37f9d166a1468fcfa6c inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="mdescLeft">&#160;</td><td class="mdescRight">Path to fragment shader source file.  <a href="class_joe_engine_1_1_j_e_shader.html#a31f1575199c5e37f9d166a1468fcfa6c">More...</a><br /></td></tr>
 <tr class="separator:a31f1575199c5e37f9d166a1468fcfa6c inherit pro_attribs_class_joe_engine_1_1_j_e_shader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_joe_engine_1_1_j_e_forward_translucent_shader.html" title="The JEForwardTranslucentShader class.">JEForwardTranslucentShader</a> class. </p>
+<p>Shader for rendering translucent meshes, optionally with OIT enabled. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_joe_engine_1_1_j_e_shader.html" title="The JEShader class.">JEShader</a>, <a class="el" href="class_joe_engine_1_1_j_e_vulkan_shader.html" title="The JEVulkanShader.">JEVulkanShader</a> </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa43ec441d9689a987a06a75b96e5154b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa43ec441d9689a987a06a75b96e5154b">&#9670;&nbsp;</a></span>JEForwardTranslucentShader() <span class="overload">[1/2]</span></h2>
 
@@ -196,6 +206,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Default constructor (deleted). </p>
 
 </div>
 </div>
@@ -281,6 +293,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -310,6 +324,15 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Bind the instanced data push constant. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commandBuffer</td><td>the command buffer to record the bind command to. </td></tr>
+    <tr><td class="paramname">instancedData</td><td>per-geometry-instance data to provide to the shader. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aec6210ba5f0b0f4b7281c98d69534d31"></a>
@@ -337,6 +360,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Bind the view-projection matrix push constant. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">commandBuffer</td><td>the command buffer to record the bind command to. </td></tr>
+    <tr><td class="paramname">viewProj</td><td>the view projection matrix to provide to the shader. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

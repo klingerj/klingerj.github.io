@@ -19,6 +19,7 @@ var namespace_joe_engine =
     [ "JEEngineInstance", "class_joe_engine_1_1_j_e_engine_instance.html", "class_joe_engine_1_1_j_e_engine_instance" ],
     [ "JEEntityManager", "class_joe_engine_1_1_j_e_entity_manager.html", "class_joe_engine_1_1_j_e_entity_manager" ],
     [ "JEForwardShader", "class_joe_engine_1_1_j_e_forward_shader.html", "class_joe_engine_1_1_j_e_forward_shader" ],
+    [ "JEForwardTranslucentShader", "class_joe_engine_1_1_j_e_forward_translucent_shader.html", "class_joe_engine_1_1_j_e_forward_translucent_shader" ],
     [ "JEIOHandler", "class_joe_engine_1_1_j_e_i_o_handler.html", "class_joe_engine_1_1_j_e_i_o_handler" ],
     [ "JEMaterialComponentManager", "class_joe_engine_1_1_j_e_material_component_manager.html", "class_joe_engine_1_1_j_e_material_component_manager" ],
     [ "JEMeshBufferManager", "class_joe_engine_1_1_j_e_mesh_buffer_manager.html", "class_joe_engine_1_1_j_e_mesh_buffer_manager" ],

@@ -35,6 +35,7 @@ var hierarchy =
         [ "JoeEngine::JEDeferredGeometryShader", "class_joe_engine_1_1_j_e_deferred_geometry_shader.html", null ],
         [ "JoeEngine::JEDeferredShader", "class_joe_engine_1_1_j_e_deferred_shader.html", null ],
         [ "JoeEngine::JEForwardShader", "class_joe_engine_1_1_j_e_forward_shader.html", null ],
+        [ "JoeEngine::JEForwardTranslucentShader", "class_joe_engine_1_1_j_e_forward_translucent_shader.html", null ],
         [ "JoeEngine::JEOITSortShader", "class_joe_engine_1_1_j_e_o_i_t_sort_shader.html", null ],
         [ "JoeEngine::JEPointsShader", "class_joe_engine_1_1_j_e_points_shader.html", null ],
         [ "JoeEngine::JEShadowShader", "class_joe_engine_1_1_j_e_shadow_shader.html", null ]
